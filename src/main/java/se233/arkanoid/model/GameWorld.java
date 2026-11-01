@@ -22,6 +22,7 @@ public class GameWorld {
     public static final double WIDTH = 800, HEIGHT = 600;
     public static final double LASER_SECONDS = 10;
     private static final double LASER_COOLDOWN = 0.4;
+    private static final double BOSS_SHOT_INTERVAL = 1.6;
     private static final double[] EXTRA_ANGLES = {-120, -90, -30, -150};
 
     public enum State { PLAYING, UPGRADE_SELECT, GAME_OVER, WON }
@@ -43,14 +44,17 @@ public class GameWorld {
     private final List<PowerUp> powerUps = new ArrayList<>();
     private final List<Laser> lasers = new ArrayList<>();
     private final List<double[]> bounces = new ArrayList<>();
+    private final List<Bullet> bossShots = new ArrayList<>();
     private final Random rng = new Random();
 
     private double ballSpeed = 380;
     private double scoreMultiplier = 1.0;
-    private double dropChance = 0.05;
+    private double dropChance = 10;
+    private double bossShotTimer = 1.0;
     private int score = 0;
     private int lives = 3;
     private int stage = 1;
+    private int highestCleared = 0;
     private int combo = 0;
     private int bestCombo = 0;
     private int extraBallCount = 0;   // จำนวนบอลเสริมที่ได้ตอนปล่อยบอล
@@ -71,9 +75,20 @@ public class GameWorld {
         log.info("New game started: stage={}, lives={}", stage, lives);
     }
 
+    public GameWorld(int startStage) {
+        if (startStage < 1 || startStage > StageFactory.MAX_STAGE) {
+            throw new GameException("Invalid start stage: " + startStage);
+        }
+        this.stage = startStage;
+        bricks = StageFactory.create(stage);
+        resetBall();
+        log.info("New game started: stage={}, lives={}", stage, lives);
+    }
+
     private void resetBall() {
         launched = false;
         extraBalls.clear();
+        bossShots.clear();
         ball.stop();
         placeBallOnPaddle();
     }
@@ -108,6 +123,9 @@ public class GameWorld {
         if (bricks.stream().allMatch(Brick::isDestroyed)) { completeStage(); return; }
 
         if (!launched) { placeBallOnPaddle(); return; }
+
+        updateBoss(dt);
+        if (state != State.PLAYING) return;
 
         stepBall(ball, dt);
         for (Ball e : new ArrayList<>(extraBalls)) stepBall(e, dt);
@@ -145,7 +163,7 @@ public class GameWorld {
 
         for (Brick br : bricks) {
             if (!br.isDestroyed() && b.intersects(br)) {
-                if (pierceLeft > 0) {
+                if (pierceLeft > 0 && !(br instanceof Boss)) {
                     pierceLeft--;
                     while (br.getHp() > 1) br.hit();   // ทะลุ = อิฐแตกทันที ไม่เด้ง
                     log.info("Ball pierced a brick ({} pierces left)", pierceLeft);
@@ -163,6 +181,50 @@ public class GameWorld {
             bounces.add(new double[]{b.getX() + b.getWidth() / 2,
                     b.getY() + b.getHeight() / 2});
         }
+    }
+
+    // ---------- Boss ----------
+    private void updateBoss(double dt) {
+        Boss boss = getBoss();
+        if (boss != null) {
+            boss.update(dt, WIDTH);
+            bossShotTimer -= dt;
+            if (bossShotTimer <= 0) {
+                bossShotTimer = BOSS_SHOT_INTERVAL;
+                bossShots.add(new Bullet(boss.getX() + boss.getWidth() / 2 - 3,
+                        boss.getY() + boss.getHeight()));
+                log.debug("Boss fired a shot");
+            }
+        }
+        Iterator<Bullet> it = bossShots.iterator();
+        while (it.hasNext()) {
+            Bullet s = it.next();
+            s.update(dt);
+            if (s.intersects(paddle)) {
+                it.remove();
+                loseLifeByShot();
+                if (state != State.PLAYING) return;
+            } else if (s.isOut(HEIGHT)) {
+                it.remove();
+            }
+        }
+    }
+
+    private void loseLifeByShot() {
+        lives--;
+        resetCombo();
+        log.warn("Paddle hit by boss shot, lives left={}", lives);
+        if (lives <= 0) {
+            state = State.GAME_OVER;
+            log.warn("GAME OVER with score={}", score);
+        }
+    }
+
+    public Boss getBoss() {
+        for (Brick b : bricks) {
+            if (b instanceof Boss boss && !boss.isDestroyed()) return boss;
+        }
+        return null;
     }
 
     /** ตัวคูณคะแนนจาก combo */
@@ -272,8 +334,10 @@ public class GameWorld {
     // ---------- Stage flow ----------
     private void completeStage() {
         log.info("Stage {} cleared, score={}", stage, score);
+        highestCleared = Math.max(highestCleared, stage);
         powerUps.clear();
         lasers.clear();
+        bossShots.clear();
         if (stage >= StageFactory.MAX_STAGE) {
             state = State.WON;
             log.info("Player WON the game with score={}", score);
@@ -298,9 +362,10 @@ public class GameWorld {
         stage++;
         bricks = StageFactory.create(stage);
         pierceLeft = pierceBudget;
+        bossShotTimer = 1.0;
         resetBall();
         state = State.PLAYING;
-        log.info("Starting stage {}", stage);
+        log.info("Starting stage {}{}", stage, StageFactory.isBossStage(stage) ? " (BOSS)" : "");
     }
 
     /** UI เรียกทุกเฟรมเพื่อเอาเหตุการณ์อิฐโดนตี/แตก แล้วล้างลิสต์ */
@@ -334,9 +399,11 @@ public class GameWorld {
     public List<Upgrade> getChoices() { return choices; }
     public List<PowerUp> getPowerUps() { return powerUps; }
     public List<Laser> getLasers() { return lasers; }
+    public List<Bullet> getBossShots() { return bossShots; }
     public int getScore() { return score; }
     public int getLives() { return lives; }
     public int getStage() { return stage; }
+    public int getHighestCleared() { return highestCleared; }
     public int getCombo() { return combo; }
     public int getBestCombo() { return bestCombo; }
     public int getPierceLeft() { return pierceLeft; }
