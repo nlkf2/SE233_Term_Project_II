@@ -17,31 +17,38 @@ import org.apache.logging.log4j.Logger;
 import se233.arkanoid.effect.Particle;
 import se233.arkanoid.exception.GameException;
 import se233.arkanoid.model.Ball;
+import se233.arkanoid.model.Boss;
 import se233.arkanoid.model.Brick;
 import se233.arkanoid.model.BrickEvent;
+import se233.arkanoid.model.Bullet;
 import se233.arkanoid.model.GameWorld;
 import se233.arkanoid.model.Laser;
 import se233.arkanoid.model.Paddle;
 import se233.arkanoid.model.PowerUp;
+import se233.arkanoid.progress.Progress;
 import se233.arkanoid.sprite.Animation;
+import se233.arkanoid.sprite.BossSprites;
 import se233.arkanoid.sprite.SpriteAtlas;
 import se233.arkanoid.sprite.SpriteAtlas.Frame;
 import se233.arkanoid.sprite.SpriteEffect;
+import se233.arkanoid.stage.StageFactory;
 import se233.arkanoid.upgrade.Upgrade;
 
+import java.nio.file.Path;
 import java.util.*;
 
 public class MainApp extends Application {
     private static final Logger log = LogManager.getLogger(MainApp.class);
     private static final double SQUASH_TIME = 0.12;
 
-    private enum Screen { MENU, GAME }
+    private enum Screen { MENU, SELECT, GAME }
 
     private final Set<KeyCode> keys = new HashSet<>();
     private final List<Particle> particles = new ArrayList<>();
     private final List<SpriteEffect> effects = new ArrayList<>();
     private final Map<Brick, Double> flashes = new HashMap<>();
     private final Random rng = new Random();
+    private final Progress progress = new Progress(Path.of("progress.properties"));
 
     // animation ชุดที่ 1: paddle เคลื่อนที่ / โหมดเลเซอร์
     private final Animation paddleMove = new Animation(SpriteAtlas.PADDLE, 0.07, true);
@@ -49,9 +56,12 @@ public class MainApp extends Application {
     // animation ชุดที่ 2: บอลเด้ง (บอลบีบแบน + ประกายระเบิดเล็ก) ใช้ ballSquash และ effects
 
     private SpriteAtlas atlas;          // null = ใช้สี่เหลี่ยมแทน (fallback)
+    private BossSprites bossSprites;    // null = วาดสี่เหลี่ยมแทน
     private boolean showDebug = false;
     private Screen screen = Screen.MENU;
     private GameWorld world;
+    private int selectedStage = 1;
+    private int lastCleared = 0;
     private int lastLives;
     private int lastCombo = 0;
     private int paddleDir = 0;
@@ -66,6 +76,12 @@ public class MainApp extends Application {
         try {
             atlas = new SpriteAtlas("/sprites/sheet.png");
             log.info("Sprite sheet loaded");
+        } catch (GameException ex) {
+            handleError(ex);
+        }
+        try {
+            bossSprites = new BossSprites("/sprites/boss.png");
+            log.info("Boss sprite loaded");
         } catch (GameException ex) {
             handleError(ex);
         }
@@ -116,13 +132,14 @@ public class MainApp extends Application {
         log.info("Application started");
     }
 
-    private void startGame() {
-        world = new GameWorld();
+    private void startGame(int startStage) {
+        world = new GameWorld(startStage);
         particles.clear();
         effects.clear();
         flashes.clear();
         lastLives = world.getLives();
         lastCombo = 0;
+        lastCleared = 0;
         comboPulse = 0;
         redFlash = 0;
         ballSquash = 0;
@@ -134,7 +151,17 @@ public class MainApp extends Application {
         if (k == KeyCode.F2) { showDebug = !showDebug; return; }
 
         if (screen == Screen.MENU) {
-            if (k == KeyCode.ENTER || k == KeyCode.SPACE) startGame();
+            if (k == KeyCode.ENTER || k == KeyCode.SPACE) {
+                selectedStage = Math.min(selectedStage, progress.getUnlocked());
+                screen = Screen.SELECT;
+            }
+            return;
+        }
+        if (screen == Screen.SELECT) {
+            if ((k == KeyCode.LEFT || k == KeyCode.A) && selectedStage > 1) selectedStage--;
+            if ((k == KeyCode.RIGHT || k == KeyCode.D) && selectedStage < progress.getUnlocked()) selectedStage++;
+            if (k == KeyCode.ENTER || k == KeyCode.SPACE) startGame(selectedStage);
+            if (k == KeyCode.ESCAPE) screen = Screen.MENU;
             return;
         }
 
@@ -150,7 +177,7 @@ public class MainApp extends Application {
         if (s == GameWorld.State.GAME_OVER || s == GameWorld.State.WON) {
             if (k == KeyCode.R) {
                 log.info("Player restarted the game");
-                startGame();
+                startGame(selectedStage);
             } else if (k == KeyCode.M) {
                 log.info("Player returned to menu");
                 screen = Screen.MENU;
@@ -195,12 +222,18 @@ public class MainApp extends Application {
         lastCombo = world.getCombo();
         if (world.getLives() < lastLives) redFlash = 0.4;
         lastLives = world.getLives();
+
+        if (world.getHighestCleared() > lastCleared) {
+            lastCleared = world.getHighestCleared();
+            progress.unlock(lastCleared + 1);
+        }
     }
 
     private void spawnBurst(Brick b) {
         double cx = b.getX() + b.getWidth() / 2;
         double cy = b.getY() + b.getHeight() / 2;
-        for (int i = 0; i < 12; i++) {
+        int n = (b instanceof Boss) ? 40 : 12;
+        for (int i = 0; i < n; i++) {
             double angle = rng.nextDouble() * Math.PI * 2;
             double speed = 60 + rng.nextDouble() * 200;
             particles.add(new Particle(cx, cy,
@@ -241,6 +274,8 @@ public class MainApp extends Application {
 
         if (screen == Screen.MENU) {
             renderMenu(g);
+        } else if (screen == Screen.SELECT) {
+            renderSelect(g);
         } else {
             renderGame(g, now);
         }
@@ -251,6 +286,35 @@ public class MainApp extends Application {
             g.fillText("Error: " + errorMessage, 20, GameWorld.HEIGHT - 10);
         }
         if (showDebug) renderDebug(g);
+    }
+
+    private void renderSelect(GraphicsContext g) {
+        g.setFill(Color.GOLD);
+        g.setFont(Font.font("System", FontWeight.BOLD, 40));
+        center(g, "SELECT STAGE", 120);
+
+        int max = StageFactory.MAX_STAGE;
+        for (int i = 1; i <= max; i++) {
+            double bx = 70 + (i - 1) * 170, by = 200;
+            boolean open = i <= progress.getUnlocked();
+            g.setFill(open ? Color.web("#1f2937") : Color.web("#111111"));
+            g.fillRoundRect(bx, by, 150, 170, 16, 16);
+            g.setStroke(i == selectedStage ? Color.GOLD : Color.GRAY);
+            g.setLineWidth(i == selectedStage ? 4 : 1);
+            g.strokeRoundRect(bx, by, 150, 170, 16, 16);
+            g.setLineWidth(1);
+
+            g.setFill(open ? Color.WHITE : Color.DIMGRAY);
+            g.setFont(Font.font("System", FontWeight.BOLD, 48));
+            centerAt(g, String.valueOf(i), bx + 75, by + 80);
+            g.setFont(Font.font(16));
+            centerAt(g, StageFactory.isBossStage(i) ? "BOSS" : "Stage " + i, bx + 75, by + 115);
+            if (!open) centerAt(g, "LOCKED", bx + 75, by + 145);
+        }
+
+        g.setFill(Color.LIGHTGRAY);
+        g.setFont(Font.font(18));
+        center(g, "LEFT / RIGHT  choose     ENTER  start     ESC  back", 430);
     }
 
     private void renderMenu(GraphicsContext g) {
@@ -270,15 +334,16 @@ public class MainApp extends Application {
 
         g.setFill(Color.LIGHTGRAY);
         g.setFont(Font.font(15));
-        centerAt(g, "LEFT / RIGHT or A / D  -  move paddle", cx, 370);
-        centerAt(g, "SPACE  -  launch the ball / fire laser", cx, 395);
-        centerAt(g, "Catch the L capsule for 10s of dual lasers", cx, 420);
-        centerAt(g, "Chain brick hits for COMBO score bonus", cx, 445);
-        centerAt(g, "1 / 2 / 3  -  choose an upgrade", cx, 470);
+        centerAt(g, "LEFT / RIGHT or A / D  -  move paddle", cx, 360);
+        centerAt(g, "SPACE  -  launch the ball / fire laser", cx, 385);
+        centerAt(g, "Catch the L capsule for 10s of dual lasers", cx, 410);
+        centerAt(g, "Chain brick hits for COMBO score bonus", cx, 435);
+        centerAt(g, "1 / 2 / 3  -  choose an upgrade", cx, 460);
+        centerAt(g, "Stage 4: defeat the BOSS - dodge its shots!", cx, 485);
 
         g.setFill(Color.GRAY);
         g.setFont(Font.font(11));
-        centerAt(g, "Sprites: Wii Furu Furu Park (Arkanoid)", cx, 560);
+        centerAt(g, "Sprites: Wii Furu Furu Park (Arkanoid), Arkanoid (Arcade) DOH", cx, 560);
         centerAt(g, "via The Spriters Resource - for educational use", cx, 576);
     }
 
@@ -297,6 +362,7 @@ public class MainApp extends Application {
 
         for (Brick b : world.getBricks()) {
             if (b.isDestroyed()) continue;
+            if (b instanceof Boss boss) { drawBoss(g, boss); continue; }
             if (atlas != null) {
                 atlas.draw(g, brickFrame(b), b.getX(), b.getY(), b.getWidth(), b.getHeight());
                 if (flashes.containsKey(b)) {
@@ -328,6 +394,12 @@ public class MainApp extends Application {
             g.fillRect(l.getX(), l.getY(), l.getWidth(), l.getHeight());
         }
 
+        // กระสุนบอส
+        g.setFill(Color.RED);
+        for (Bullet s : world.getBossShots()) {
+            g.fillOval(s.getX(), s.getY(), s.getWidth(), s.getHeight());
+        }
+
         // paddle
         Paddle p = world.getPaddle();
         if (atlas != null) {
@@ -346,7 +418,8 @@ public class MainApp extends Application {
         g.setFill(Color.WHITE);
         g.setFont(Font.font(18));
         g.fillText("Score: " + world.getScore(), 20, 30);
-        center(g, "Stage: " + world.getStage() + "/3", 30);
+        center(g, "Stage: " + world.getStage() + "/" + StageFactory.MAX_STAGE
+                + (StageFactory.isBossStage(world.getStage()) ? "  BOSS" : ""), 30);
         g.fillText("Lives: " + world.getLives(), GameWorld.WIDTH - 100, 30);
 
         if (world.isLaserActive()) {
@@ -417,6 +490,36 @@ public class MainApp extends Application {
         }
     }
 
+    private void drawBoss(GraphicsContext g, Boss boss) {
+        double ratio = (double) boss.getHp() / boss.getMaxHp();
+        double cx = boss.getX() + boss.getWidth() / 2;
+
+        if (bossSprites != null) {
+            int state = flashes.containsKey(boss) ? 1 : (ratio < 0.3 ? 2 : 0);
+            int col = (int) (System.nanoTime() / 200_000_000L) % 4;   // ปากขยับ
+            double dh = 100, dw = dh * 64 / 90;
+            bossSprites.draw(g, state, col, cx - dw / 2,
+                    boss.getY() + boss.getHeight() / 2 - dh / 2, dw, dh);
+        } else {
+            g.setFill(flashes.containsKey(boss) ? Color.WHITE : Color.web("#7f1d1d"));
+            g.fillRoundRect(boss.getX(), boss.getY(), boss.getWidth(), boss.getHeight(), 14, 14);
+            g.setStroke(Color.ORANGERED);
+            g.setLineWidth(3);
+            g.strokeRoundRect(boss.getX(), boss.getY(), boss.getWidth(), boss.getHeight(), 14, 14);
+            g.setLineWidth(1);
+            g.setFill(Color.WHITE);
+            g.setFont(Font.font("System", FontWeight.BOLD, 16));
+            centerAt(g, "BOSS", cx, boss.getY() + 26);
+        }
+
+        // แถบ HP เหนือหัวบอส
+        double barY = boss.getY() - 12;
+        g.setFill(Color.web("#374151"));
+        g.fillRect(boss.getX(), barY, boss.getWidth(), 6);
+        g.setFill(ratio > 0.4 ? Color.LIMEGREEN : Color.ORANGERED);
+        g.fillRect(boss.getX(), barY, boss.getWidth() * ratio, 6);
+    }
+
     private void drawBall(GraphicsContext g, Ball ball) {
         double s = Math.max(0, ballSquash) / SQUASH_TIME;
         double bw = ball.getWidth() * (1 + 0.5 * s), bh = ball.getHeight() * (1 - 0.35 * s);
@@ -431,6 +534,7 @@ public class MainApp extends Application {
     private void renderDebug(GraphicsContext g) {
         g.setFill(Color.web("#808080"));
         g.fillRect(0, 0, GameWorld.WIDTH, GameWorld.HEIGHT);
+        if (bossSprites != null) { bossSprites.drawDebug(g); return; }
         if (atlas == null) {
             g.setFill(Color.WHITE);
             g.setFont(Font.font(18));

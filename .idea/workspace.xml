@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c3fc61cd-1a57-4b87-9cb9-bf0ba411f5aa" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/logs/game.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/game.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se233/arkanoid/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se233/arkanoid/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se233/arkanoid/model/Boss.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se233/arkanoid/model/Boss.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se233/arkanoid/model/Bullet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se233/arkanoid/model/Bullet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se233/arkanoid/model/GameWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se233/arkanoid/model/GameWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se233/arkanoid/progress/Progress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se233/arkanoid/progress/Progress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se233/arkanoid/sprite/BossSprites.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se233/arkanoid/sprite/BossSprites.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se233/arkanoid/stage/StageFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se233/arkanoid/stage/StageFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BossTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BossTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ProgressTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ProgressTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="51" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;nlkf2&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/nlkf2/SE233_Term_Project_II.git&quot;,
+    &quot;accountId&quot;: &quot;3d8b70ed-3779-493e-ade4-64e42884d3f4&quot;
+  }
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.5425656071901073" />
+      <entry key="MS500" value="2.9504826544676015" />
+      <entry key="S2" value="5.7761363610964045" />
+      <entry key="S5" value="8.61772036416895" />
+      <entry key="S10" value="10.458301611295688" />
+      <entry key="S30" value="13.774780590812256" />
+      <entry key="S60" value="16.987312678098053" />
+      <entry key="M2" value="21.83128211204388" />
+      <entry key="M5" value="35.558031453457716" />
+      <entry key="M10" value="54.86429240336321" />
+      <entry key="M15" value="68.06226565682654" />
+      <entry key="M30" value="88.93555566690868" />
+      <entry key="H1" value="104.27541640214176" />
+      <entry key="H2" value="113.81542036812922" />
+      <entry key="H4" value="119.1787699406558" />
+      <entry key="D1" value="123.99573785401678" />
+      <entry key="W1" value="124.85566835949399" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="1.9406595825160814E-201" />
+      <entry key="S5" value="5.190148026777097E-81" />
+      <entry key="S10" value="7.204268211747057E-41" />
+      <entry key="S30" value="4.1661587518222356E-14" />
+      <entry key="S60" value="2.1117476019310036E-7" />
+      <entry key="M2" value="5.364392615286932E-4" />
+      <entry key="M5" value="0.06943015385599659" />
+      <entry key="M10" value="0.3696108933752191" />
+      <entry key="M15" value="0.6604207506300851" />
+      <entry key="M30" value="1.2595535566580687" />
+      <entry key="H1" value="1.8600047883023751" />
+      <entry key="H2" value="2.330545548728584" />
+      <entry key="H4" value="2.6344795684290236" />
+      <entry key="D1" value="2.9341700923765273" />
+      <entry key="W1" value="2.9904661714329874" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.4617857116026542" />
+      <entry key="MS500" value="2.908880437729705" />
+      <entry key="S2" value="5.748366036449844" />
+      <entry key="S5" value="8.60210826510243" />
+      <entry key="S10" value="10.449237578110612" />
+      <entry key="S30" value="13.770505635052572" />
+      <entry key="S60" value="16.98442285386219" />
+      <entry key="M2" value="21.82988062013868" />
+      <entry key="M5" value="35.62540046657523" />
+      <entry key="M10" value="55.23090427110466" />
+      <entry key="M15" value="68.71950422976715" />
+      <entry key="M30" value="90.19239868953625" />
+      <entry key="H1" value="106.13357973549287" />
+      <entry key="H2" value="116.14487609625863" />
+      <entry key="H4" value="121.81265380362481" />
+      <entry key="D1" value="126.92980070914052" />
+      <entry key="W1" value="127.84611900340175" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3LCKQPhzdYfG5uRGlqI9fAWJvqR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Launcher.executor": "Run",
+    "Maven.arkanoid [org.openjfx:javafx-maven-plugin:0.0.8:run].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Project2/arkanoid/src/main/resources/sprites",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "to.speed.mode.migration.done": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project2\arkanoid\src\main\resources\sprites" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.26222.65" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.26222.65" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c3fc61cd-1a57-4b87-9cb9-bf0ba411f5aa" name="Changes" comment="" />
+      <created>1792952597925</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1792952597925</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
