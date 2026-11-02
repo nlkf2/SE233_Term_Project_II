@@ -49,7 +49,7 @@ public class GameWorld {
 
     private double ballSpeed = 380;
     private double scoreMultiplier = 1.0;
-    private double dropChance = 10;
+    private double dropChance = 1;
     private double bossShotTimer = 1.0;
     private int score = 0;
     private int lives = 3;

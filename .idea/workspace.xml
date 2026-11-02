@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c3fc61cd-1a57-4b87-9cb9-bf0ba411f5aa" name="Changes" comment="">
+    <list default="true" id="c3fc61cd-1a57-4b87-9cb9-bf0ba411f5aa" name="Changes" comment="d">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/game.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/game.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se233/arkanoid/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se233/arkanoid/MainApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se233/arkanoid/model/Boss.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se233/arkanoid/model/Boss.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se233/arkanoid/model/Bullet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se233/arkanoid/model/Bullet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/se233/arkanoid/model/GameWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se233/arkanoid/model/GameWorld.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se233/arkanoid/progress/Progress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se233/arkanoid/progress/Progress.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se233/arkanoid/sprite/BossSprites.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se233/arkanoid/sprite/BossSprites.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se233/arkanoid/stage/StageFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se233/arkanoid/stage/StageFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BossTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BossTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ProgressTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ProgressTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +36,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/nlkf2/SE233_Term_Project_II.git&quot;,
-    &quot;accountId&quot;: &quot;3d8b70ed-3779-493e-ade4-64e42884d3f4&quot;
+    &quot;accountId&quot;: &quot;212c8d21-022e-4095-ab68-2468ededc4bb&quot;
   }
 }</component>
   <component name="MavenImportPreferences">
@@ -125,33 +118,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Launcher.executor": "Run",
-    "Maven.arkanoid [org.openjfx:javafx-maven-plugin:0.0.8:run].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Project2/arkanoid/src/main/resources/sprites",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "to.speed.mode.migration.done": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Launcher.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.arkanoid [org.openjfx:javafx-maven-plugin:0.0.8:run].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Project2/arkanoid/src/main/resources/sprites&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Project2\arkanoid\src\main\resources\sprites" />
@@ -160,8 +153,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.26222.65" />
-        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.26222.65" />
+        <option value="bundled-jdk-30f59d01ecdd-63390994e64e-intellij.indexing.shared.core-IU-262.8665.258" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.8665.258" />
       </set>
     </attachedChunks>
   </component>
@@ -177,5 +170,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="d" />
+    <option name="LAST_COMMIT_MESSAGE" value="d" />
   </component>
 </project>
