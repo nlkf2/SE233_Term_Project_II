@@ -1,7 +1,7 @@
 package se233.arkanoid.model;
 
 public class Laser extends GameObject {
-    private static final double SPEED = 600;
+    private static final double SPEED = 1000;
 
     public Laser(double x, double y) {
         super(x, y, 4, 14);

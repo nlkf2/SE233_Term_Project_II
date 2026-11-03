@@ -265,7 +265,7 @@ public class GameWorld {
             log.debug("Brick hit by {}, hp left={}", source, b.getHp());
         }
     }
-
+    //เก็บแล้วได้เลเซอร์
     private void updatePowerUps(double dt) {
         Iterator<PowerUp> it = powerUps.iterator();
         while (it.hasNext()) {
