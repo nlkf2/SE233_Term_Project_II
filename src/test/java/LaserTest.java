@@ -1,4 +1,3 @@
-package se233.arkanoid;
 
 import org.junit.jupiter.api.Test;
 import se233.arkanoid.model.Brick;

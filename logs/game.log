@@ -3427,3 +3427,1324 @@
 2026-11-02 19:19:12.948 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
 2026-11-02 19:19:13.331 [JavaFX Application Thread] INFO  GameWorld - Laser mode ON for 10.0 seconds
 2026-11-02 19:19:14.095 [JavaFX Application Thread] WARN  GameWorld - Life lost, lives left=2
+2026-11-03 09:54:26.090 [JavaFX Application Thread] INFO  Progress - Progress loaded: unlocked stage 4
+2026-11-03 09:54:26.199 [JavaFX Application Thread] INFO  MainApp - Sprite sheet loaded
+2026-11-03 09:54:26.206 [JavaFX Application Thread] INFO  MainApp - Boss sprite loaded
+2026-11-03 09:54:26.415 [JavaFX Application Thread] INFO  MainApp - Application started
+2026-11-03 09:54:27.121 [JavaFX Application Thread] INFO  Progress - Progress loaded: unlocked stage 4
+2026-11-03 09:54:27.197 [JavaFX Application Thread] INFO  MainApp - Sprite sheet loaded
+2026-11-03 09:54:27.201 [JavaFX Application Thread] INFO  MainApp - Boss sprite loaded
+2026-11-03 09:54:27.348 [JavaFX Application Thread] INFO  MainApp - Application started
+2026-11-03 09:54:35.337 [JavaFX Application Thread] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 09:54:36.497 [JavaFX Application Thread] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=0)
+2026-11-03 09:54:37.547 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x1), score=10
+2026-11-03 09:54:37.548 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:54:38.604 [JavaFX Application Thread] DEBUG GameWorld - Ball bounced off paddle
+2026-11-03 09:54:39.837 [JavaFX Application Thread] INFO  GameWorld - Laser mode ON for 10.0 seconds
+2026-11-03 09:54:39.900 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x1), score=20
+2026-11-03 09:54:39.900 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:54:40.155 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:54:40.539 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:54:40.716 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x1), score=30
+2026-11-03 09:54:40.716 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:54:40.764 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x1), score=40
+2026-11-03 09:54:40.764 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:54:40.971 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:54:41.116 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x1), score=50
+2026-11-03 09:54:41.116 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:54:41.116 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x1), score=60
+2026-11-03 09:54:41.116 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:54:41.212 [JavaFX Application Thread] DEBUG GameWorld - Ball bounced off paddle
+2026-11-03 09:54:41.532 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x0), score=70
+2026-11-03 09:54:41.532 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:54:41.532 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x0), score=80
+2026-11-03 09:54:41.532 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:54:41.719 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:54:42.179 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:54:42.332 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x0), score=90
+2026-11-03 09:54:42.332 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:54:42.332 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x0), score=100
+2026-11-03 09:54:42.332 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:54:42.652 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x1), score=110
+2026-11-03 09:54:42.652 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:54:42.684 [JavaFX Application Thread] DEBUG GameWorld - Combo x2
+2026-11-03 09:54:42.684 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x2), score=120
+2026-11-03 09:54:42.684 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:54:42.748 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x2), score=130
+2026-11-03 09:54:42.748 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:54:42.796 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x2), score=140
+2026-11-03 09:54:42.796 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:54:43.004 [JavaFX Application Thread] INFO  GameWorld - Laser mode ON for 10.0 seconds
+2026-11-03 09:54:43.244 [JavaFX Application Thread] INFO  GameWorld - Laser mode ON for 10.0 seconds
+2026-11-03 09:54:43.452 [JavaFX Application Thread] INFO  GameWorld - Laser mode ON for 10.0 seconds
+2026-11-03 09:54:43.820 [JavaFX Application Thread] INFO  GameWorld - Laser mode ON for 10.0 seconds
+2026-11-03 09:54:43.820 [JavaFX Application Thread] INFO  GameWorld - Laser mode ON for 10.0 seconds
+2026-11-03 09:54:44.172 [JavaFX Application Thread] DEBUG GameWorld - Ball bounced off paddle
+2026-11-03 09:54:44.393 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:54:44.796 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:54:44.828 [JavaFX Application Thread] INFO  GameWorld - Laser mode ON for 10.0 seconds
+2026-11-03 09:54:45.004 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x0), score=150
+2026-11-03 09:54:45.004 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:54:45.261 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:54:45.308 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x1), score=160
+2026-11-03 09:54:45.308 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:54:45.468 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x1), score=170
+2026-11-03 09:54:45.468 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:54:45.468 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x1), score=180
+2026-11-03 09:54:45.468 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:54:45.644 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:54:45.964 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x1), score=190
+2026-11-03 09:54:45.964 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:54:45.964 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x1), score=200
+2026-11-03 09:54:45.964 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:54:46.316 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x1), score=210
+2026-11-03 09:54:46.316 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:54:46.316 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x1), score=220
+2026-11-03 09:54:46.316 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:54:46.444 [JavaFX Application Thread] DEBUG GameWorld - Ball bounced off paddle
+2026-11-03 09:54:46.809 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:54:47.195 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:54:47.420 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x0), score=230
+2026-11-03 09:54:47.420 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:54:47.468 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x0), score=240
+2026-11-03 09:54:47.468 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:54:47.596 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x1), score=250
+2026-11-03 09:54:47.596 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:54:47.596 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:54:47.772 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x1), score=260
+2026-11-03 09:54:47.772 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:54:47.868 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x1), score=270
+2026-11-03 09:54:47.868 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:54:48.011 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:54:48.219 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x1), score=280
+2026-11-03 09:54:48.219 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:54:48.331 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x1), score=290
+2026-11-03 09:54:48.331 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:54:48.684 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x1), score=300
+2026-11-03 09:54:48.684 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:54:48.748 [JavaFX Application Thread] DEBUG GameWorld - Ball bounced off paddle
+2026-11-03 09:54:48.796 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by laser, hp left=1
+2026-11-03 09:54:49.379 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:54:49.788 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:54:49.900 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x1), score=310
+2026-11-03 09:54:49.900 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:54:49.948 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x1), score=320
+2026-11-03 09:54:49.948 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:54:50.108 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x1), score=330
+2026-11-03 09:54:50.108 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:54:50.233 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:54:50.412 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x1), score=340
+2026-11-03 09:54:50.412 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:54:50.556 [JavaFX Application Thread] INFO  GameWorld - Laser mode ON for 10.0 seconds
+2026-11-03 09:54:50.635 [JavaFX Application Thread] INFO  GameWorld - Laser mode ON for 10.0 seconds
+2026-11-03 09:54:50.891 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x1), score=350
+2026-11-03 09:54:50.891 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:54:51.067 [JavaFX Application Thread] DEBUG GameWorld - Ball bounced off paddle
+2026-11-03 09:54:51.940 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:54:52.332 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:54:52.524 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x1), score=360
+2026-11-03 09:54:52.524 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:54:52.652 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x1), score=370
+2026-11-03 09:54:52.652 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:54:52.652 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x1), score=380
+2026-11-03 09:54:52.652 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:54:52.892 [JavaFX Application Thread] INFO  GameWorld - Laser mode ON for 10.0 seconds
+2026-11-03 09:54:53.116 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by laser, hp left=1
+2026-11-03 09:54:53.116 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by laser, hp left=1
+2026-11-03 09:54:53.980 [JavaFX Application Thread] DEBUG GameWorld - Ball bounced off paddle
+2026-11-03 09:54:54.763 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:54:55.147 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:54:55.227 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by ball, hp left=1
+2026-11-03 09:54:55.419 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x1), score=390
+2026-11-03 09:54:55.419 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:54:55.532 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by laser, hp left=1
+2026-11-03 09:54:55.548 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:54:55.868 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x1), score=400
+2026-11-03 09:54:55.868 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:54:55.932 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +20 points (combo x1), score=420
+2026-11-03 09:54:55.932 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:54:56.332 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by laser, hp left=1
+2026-11-03 09:54:56.476 [JavaFX Application Thread] DEBUG GameWorld - Ball bounced off paddle
+2026-11-03 09:54:57.012 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:54:57.404 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:54:57.724 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +20 points (combo x1), score=440
+2026-11-03 09:54:57.724 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:54:57.787 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +20 points (combo x1), score=460
+2026-11-03 09:54:57.787 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:54:58.108 [JavaFX Application Thread] INFO  GameWorld - Laser mode ON for 10.0 seconds
+2026-11-03 09:54:58.163 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:54:58.940 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +20 points (combo x1), score=480
+2026-11-03 09:54:58.940 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:54:58.972 [JavaFX Application Thread] DEBUG GameWorld - Ball bounced off paddle
+2026-11-03 09:54:59.670 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:55:00.067 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:55:00.444 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +20 points (combo x0), score=500
+2026-11-03 09:55:00.444 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:00.444 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by laser, hp left=1
+2026-11-03 09:55:00.460 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:55:00.732 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by ball, hp left=1
+2026-11-03 09:55:00.812 [JavaFX Application Thread] INFO  GameWorld - Laser mode ON for 10.0 seconds
+2026-11-03 09:55:00.844 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +20 points (combo x1), score=520
+2026-11-03 09:55:00.844 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:02.492 [JavaFX Application Thread] DEBUG GameWorld - Ball bounced off paddle
+2026-11-03 09:55:03.762 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:55:03.979 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +20 points (combo x1), score=540
+2026-11-03 09:55:03.979 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:04.171 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:55:04.540 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +20 points (combo x1), score=560
+2026-11-03 09:55:04.540 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:04.540 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by laser, hp left=1
+2026-11-03 09:55:04.572 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:55:04.971 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +20 points (combo x1), score=580
+2026-11-03 09:55:04.971 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:06.012 [JavaFX Application Thread] DEBUG GameWorld - Ball bounced off paddle
+2026-11-03 09:55:07.067 [JavaFX Application Thread] INFO  GameWorld - Laser mode ON for 10.0 seconds
+2026-11-03 09:55:07.544 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:55:07.628 [JavaFX Application Thread] INFO  GameWorld - Laser mode ON for 10.0 seconds
+2026-11-03 09:55:07.943 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:55:08.316 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by laser, hp left=1
+2026-11-03 09:55:08.715 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +20 points (combo x0), score=600
+2026-11-03 09:55:08.715 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:08.715 [JavaFX Application Thread] INFO  GameWorld - Stage 1 cleared, score=600
+2026-11-03 09:55:08.721 [JavaFX Application Thread] DEBUG GameWorld - Upgrade choices offered: [Fast Paddle, Wide Paddle, Extra Ball]
+2026-11-03 09:55:13.720 [JavaFX Application Thread] INFO  GameWorld - Upgrade chosen: Fast Paddle
+2026-11-03 09:55:13.721 [JavaFX Application Thread] INFO  GameWorld - Starting stage 2
+2026-11-03 09:55:14.525 [JavaFX Application Thread] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=0)
+2026-11-03 09:55:14.540 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:55:15.068 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x0), score=610
+2026-11-03 09:55:15.068 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:15.116 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x0), score=620
+2026-11-03 09:55:15.116 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:15.483 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x1), score=630
+2026-11-03 09:55:15.483 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:16.444 [JavaFX Application Thread] DEBUG GameWorld - Ball bounced off paddle
+2026-11-03 09:55:17.164 [JavaFX Application Thread] INFO  GameWorld - Laser mode ON for 10.0 seconds
+2026-11-03 09:55:17.404 [JavaFX Application Thread] INFO  GameWorld - Laser mode ON for 10.0 seconds
+2026-11-03 09:55:17.420 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x1), score=640
+2026-11-03 09:55:17.420 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:17.479 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:55:17.883 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:55:17.995 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x1), score=650
+2026-11-03 09:55:17.995 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:18.139 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x1), score=660
+2026-11-03 09:55:18.139 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:18.395 [JavaFX Application Thread] DEBUG GameWorld - Ball bounced off paddle
+2026-11-03 09:55:18.508 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x0), score=670
+2026-11-03 09:55:18.508 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:18.667 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by laser, hp left=1
+2026-11-03 09:55:18.907 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:55:19.292 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:55:19.612 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by laser, hp left=1
+2026-11-03 09:55:19.676 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +20 points (combo x0), score=690
+2026-11-03 09:55:19.676 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:20.028 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +20 points (combo x0), score=710
+2026-11-03 09:55:20.028 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:20.060 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x1), score=720
+2026-11-03 09:55:20.060 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:20.342 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:55:20.748 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:55:20.908 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x1), score=730
+2026-11-03 09:55:20.908 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:20.956 [JavaFX Application Thread] INFO  GameWorld - Laser mode ON for 10.0 seconds
+2026-11-03 09:55:20.956 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x1), score=740
+2026-11-03 09:55:20.956 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:21.004 [JavaFX Application Thread] INFO  GameWorld - Laser mode ON for 10.0 seconds
+2026-11-03 09:55:21.276 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x1), score=750
+2026-11-03 09:55:21.276 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:21.324 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x1), score=760
+2026-11-03 09:55:21.324 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:21.739 [JavaFX Application Thread] DEBUG GameWorld - Ball bounced off paddle
+2026-11-03 09:55:22.299 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:55:22.684 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:55:22.907 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x0), score=770
+2026-11-03 09:55:22.907 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:22.955 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x0), score=780
+2026-11-03 09:55:22.955 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:23.083 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x1), score=790
+2026-11-03 09:55:23.083 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:23.099 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:55:23.307 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x1), score=800
+2026-11-03 09:55:23.307 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:23.467 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by laser, hp left=1
+2026-11-03 09:55:23.755 [JavaFX Application Thread] INFO  GameWorld - Laser mode ON for 10.0 seconds
+2026-11-03 09:55:23.819 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by laser, hp left=1
+2026-11-03 09:55:23.883 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +20 points (combo x1), score=820
+2026-11-03 09:55:23.883 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:24.428 [JavaFX Application Thread] DEBUG GameWorld - Ball bounced off paddle
+2026-11-03 09:55:24.770 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:55:25.163 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:55:25.435 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x0), score=830
+2026-11-03 09:55:25.435 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:25.484 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by laser, hp left=1
+2026-11-03 09:55:25.564 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:55:25.788 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x0), score=840
+2026-11-03 09:55:25.788 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:25.948 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by laser, hp left=1
+2026-11-03 09:55:26.172 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +20 points (combo x1), score=860
+2026-11-03 09:55:26.172 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:26.284 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by laser, hp left=1
+2026-11-03 09:55:26.348 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +20 points (combo x1), score=880
+2026-11-03 09:55:26.348 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:26.716 [JavaFX Application Thread] DEBUG GameWorld - Combo x2
+2026-11-03 09:55:26.716 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by ball, hp left=1
+2026-11-03 09:55:28.619 [JavaFX Application Thread] DEBUG GameWorld - Ball bounced off paddle
+2026-11-03 09:55:29.000 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:55:29.403 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:55:29.563 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x0), score=890
+2026-11-03 09:55:29.563 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:29.788 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by ball, hp left=1
+2026-11-03 09:55:29.804 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:55:30.076 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x1), score=900
+2026-11-03 09:55:30.076 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:30.204 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:55:30.524 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +20 points (combo x1), score=920
+2026-11-03 09:55:30.524 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:30.588 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by laser, hp left=1
+2026-11-03 09:55:30.663 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:55:30.972 [JavaFX Application Thread] DEBUG GameWorld - Ball bounced off paddle
+2026-11-03 09:55:30.988 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +20 points (combo x0), score=940
+2026-11-03 09:55:30.988 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:32.585 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:55:32.988 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:55:33.308 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +20 points (combo x0), score=960
+2026-11-03 09:55:33.308 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:33.756 [laser-timer] INFO  GameWorld - Laser mode OFF
+2026-11-03 09:55:34.428 [JavaFX Application Thread] DEBUG GameWorld - Ball bounced off paddle
+2026-11-03 09:55:35.755 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +20 points (combo x1), score=980
+2026-11-03 09:55:35.755 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:36.332 [JavaFX Application Thread] INFO  GameWorld - Laser mode ON for 10.0 seconds
+2026-11-03 09:55:37.084 [JavaFX Application Thread] DEBUG GameWorld - Ball bounced off paddle
+2026-11-03 09:55:37.673 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:55:38.444 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +20 points (combo x0), score=1000
+2026-11-03 09:55:38.444 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:38.444 [JavaFX Application Thread] INFO  GameWorld - Stage 2 cleared, score=1000
+2026-11-03 09:55:38.444 [JavaFX Application Thread] DEBUG GameWorld - Upgrade choices offered: [Extra Ball, Piercing Ball, Score Boost]
+2026-11-03 09:55:39.767 [JavaFX Application Thread] INFO  GameWorld - Upgrade chosen: Piercing Ball
+2026-11-03 09:55:39.767 [JavaFX Application Thread] INFO  GameWorld - Starting stage 3
+2026-11-03 09:55:40.785 [JavaFX Application Thread] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=0)
+2026-11-03 09:55:40.795 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:55:41.275 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x0), score=1010
+2026-11-03 09:55:41.275 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:41.275 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x0), score=1020
+2026-11-03 09:55:41.275 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:41.493 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:55:41.723 [JavaFX Application Thread] INFO  GameWorld - Ball pierced a brick (7 pierces left)
+2026-11-03 09:55:41.723 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x1), score=1030
+2026-11-03 09:55:41.723 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:41.739 [JavaFX Application Thread] INFO  GameWorld - Ball pierced a brick (6 pierces left)
+2026-11-03 09:55:41.739 [JavaFX Application Thread] DEBUG GameWorld - Combo x2
+2026-11-03 09:55:41.739 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x2), score=1040
+2026-11-03 09:55:41.739 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:41.851 [JavaFX Application Thread] INFO  GameWorld - Ball pierced a brick (5 pierces left)
+2026-11-03 09:55:41.851 [JavaFX Application Thread] DEBUG GameWorld - Combo x3
+2026-11-03 09:55:41.851 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x3), score=1050
+2026-11-03 09:55:41.851 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:41.883 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:55:41.931 [JavaFX Application Thread] INFO  GameWorld - Ball pierced a brick (4 pierces left)
+2026-11-03 09:55:41.931 [JavaFX Application Thread] DEBUG GameWorld - Combo x4
+2026-11-03 09:55:41.931 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x4), score=1060
+2026-11-03 09:55:41.931 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:41.963 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x4), score=1070
+2026-11-03 09:55:41.963 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:42.027 [JavaFX Application Thread] INFO  GameWorld - Ball pierced a brick (3 pierces left)
+2026-11-03 09:55:42.027 [JavaFX Application Thread] DEBUG GameWorld - Combo x5
+2026-11-03 09:55:42.027 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +30 points (combo x5), score=1100
+2026-11-03 09:55:42.027 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:42.107 [JavaFX Application Thread] INFO  GameWorld - Ball pierced a brick (2 pierces left)
+2026-11-03 09:55:42.107 [JavaFX Application Thread] DEBUG GameWorld - Combo x6
+2026-11-03 09:55:42.107 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +30 points (combo x6), score=1130
+2026-11-03 09:55:42.107 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:42.123 [JavaFX Application Thread] INFO  GameWorld - Ball pierced a brick (1 pierces left)
+2026-11-03 09:55:42.123 [JavaFX Application Thread] DEBUG GameWorld - Combo x7
+2026-11-03 09:55:42.123 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +30 points (combo x7), score=1160
+2026-11-03 09:55:42.123 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:42.196 [JavaFX Application Thread] INFO  GameWorld - Ball pierced a brick (0 pierces left)
+2026-11-03 09:55:42.197 [JavaFX Application Thread] DEBUG GameWorld - Combo x8
+2026-11-03 09:55:42.197 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +30 points (combo x8), score=1190
+2026-11-03 09:55:42.197 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:42.204 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by laser, hp left=1
+2026-11-03 09:55:42.284 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:55:42.412 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x8), score=1200
+2026-11-03 09:55:42.412 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:42.604 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +20 points (combo x8), score=1220
+2026-11-03 09:55:42.604 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:42.684 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:55:42.796 [JavaFX Application Thread] DEBUG GameWorld - Combo x9
+2026-11-03 09:55:42.796 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by ball, hp left=1
+2026-11-03 09:55:42.860 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x9), score=1230
+2026-11-03 09:55:42.860 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:43.068 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by laser, hp left=1
+2026-11-03 09:55:43.164 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x9), score=1240
+2026-11-03 09:55:43.165 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:43.292 [JavaFX Application Thread] DEBUG GameWorld - Combo x10
+2026-11-03 09:55:43.292 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by ball, hp left=1
+2026-11-03 09:55:43.308 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x10), score=1250
+2026-11-03 09:55:43.308 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:43.431 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:55:43.612 [JavaFX Application Thread] DEBUG GameWorld - Combo x11
+2026-11-03 09:55:43.612 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by ball, hp left=1
+2026-11-03 09:55:43.820 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:55:43.948 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x11), score=1260
+2026-11-03 09:55:43.948 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:43.948 [JavaFX Application Thread] DEBUG GameWorld - Combo x12
+2026-11-03 09:55:43.948 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by ball, hp left=1
+2026-11-03 09:55:44.203 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +20 points (combo x12), score=1280
+2026-11-03 09:55:44.203 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:44.235 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:55:44.283 [JavaFX Application Thread] DEBUG GameWorld - Combo x13
+2026-11-03 09:55:44.283 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by ball, hp left=1
+2026-11-03 09:55:44.299 [JavaFX Application Thread] DEBUG GameWorld - Combo x14
+2026-11-03 09:55:44.299 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +40 points (combo x14), score=1320
+2026-11-03 09:55:44.299 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:44.315 [JavaFX Application Thread] DEBUG GameWorld - Combo x15
+2026-11-03 09:55:44.315 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +60 points (combo x15), score=1380
+2026-11-03 09:55:44.315 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:44.363 [JavaFX Application Thread] DEBUG GameWorld - Combo x16
+2026-11-03 09:55:44.363 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by ball, hp left=1
+2026-11-03 09:55:44.395 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x16), score=1390
+2026-11-03 09:55:44.395 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:44.745 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:55:44.763 [JavaFX Application Thread] DEBUG GameWorld - Combo x17
+2026-11-03 09:55:44.763 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +60 points (combo x17), score=1450
+2026-11-03 09:55:44.763 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:44.859 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x17), score=1460
+2026-11-03 09:55:44.859 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:45.151 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:55:45.404 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by laser, hp left=1
+2026-11-03 09:55:45.499 [JavaFX Application Thread] DEBUG GameWorld - Combo x18
+2026-11-03 09:55:45.499 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +30 points (combo x18), score=1490
+2026-11-03 09:55:45.499 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:45.577 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:55:45.819 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +20 points (combo x18), score=1510
+2026-11-03 09:55:45.819 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:45.883 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by laser, hp left=1
+2026-11-03 09:55:46.043 [JavaFX Application Thread] INFO  GameWorld - Laser mode ON for 10.0 seconds
+2026-11-03 09:55:46.091 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x18), score=1520
+2026-11-03 09:55:46.091 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:46.300 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +20 points (combo x18), score=1540
+2026-11-03 09:55:46.300 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:46.603 [JavaFX Application Thread] DEBUG GameWorld - Ball bounced off paddle
+2026-11-03 09:55:46.603 [JavaFX Application Thread] INFO  GameWorld - Combo broken at x18
+2026-11-03 09:55:46.683 [JavaFX Application Thread] INFO  GameWorld - Laser mode ON for 10.0 seconds
+2026-11-03 09:55:47.015 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:55:47.340 [JavaFX Application Thread] INFO  GameWorld - Laser mode ON for 10.0 seconds
+2026-11-03 09:55:47.388 [JavaFX Application Thread] INFO  GameWorld - Laser mode ON for 10.0 seconds
+2026-11-03 09:55:47.404 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:55:47.580 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x1), score=1550
+2026-11-03 09:55:47.580 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:47.724 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +20 points (combo x1), score=1570
+2026-11-03 09:55:47.724 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:48.571 [JavaFX Application Thread] DEBUG GameWorld - Ball bounced off paddle
+2026-11-03 09:55:48.975 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:55:49.371 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:55:49.452 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x0), score=1580
+2026-11-03 09:55:49.452 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:49.755 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +20 points (combo x0), score=1600
+2026-11-03 09:55:49.755 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:49.779 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:55:49.900 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x0), score=1610
+2026-11-03 09:55:49.900 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:50.172 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:55:50.348 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x0), score=1620
+2026-11-03 09:55:50.348 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:50.588 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:55:50.796 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x0), score=1630
+2026-11-03 09:55:50.796 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:50.988 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:55:51.260 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by laser, hp left=1
+2026-11-03 09:55:51.484 [JavaFX Application Thread] DEBUG GameWorld - Ball bounced off paddle
+2026-11-03 09:55:51.660 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +20 points (combo x0), score=1650
+2026-11-03 09:55:51.660 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:52.194 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:55:52.428 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x1), score=1660
+2026-11-03 09:55:52.428 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:52.588 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:55:52.844 [JavaFX Application Thread] INFO  GameWorld - Laser mode ON for 10.0 seconds
+2026-11-03 09:55:52.860 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by laser, hp left=1
+2026-11-03 09:55:53.260 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +20 points (combo x1), score=1680
+2026-11-03 09:55:53.260 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:53.372 [JavaFX Application Thread] DEBUG GameWorld - Ball bounced off paddle
+2026-11-03 09:55:53.571 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:55:53.964 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:55:54.140 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x0), score=1690
+2026-11-03 09:55:54.140 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:54.188 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x0), score=1700
+2026-11-03 09:55:54.188 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:54.364 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x1), score=1710
+2026-11-03 09:55:54.364 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:54.380 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:55:54.636 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by laser, hp left=1
+2026-11-03 09:55:54.636 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by laser, hp left=1
+2026-11-03 09:55:54.792 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:55:55.052 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +20 points (combo x1), score=1730
+2026-11-03 09:55:55.052 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:55.052 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +20 points (combo x1), score=1750
+2026-11-03 09:55:55.052 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:55.212 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:55:55.500 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by laser, hp left=1
+2026-11-03 09:55:55.500 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by laser, hp left=1
+2026-11-03 09:55:55.500 [JavaFX Application Thread] WARN  GameWorld - Life lost, lives left=2
+2026-11-03 09:55:55.640 [JavaFX Application Thread] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=0)
+2026-11-03 09:55:55.644 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:55:55.932 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +20 points (combo x0), score=1770
+2026-11-03 09:55:55.932 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:55.932 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +20 points (combo x0), score=1790
+2026-11-03 09:55:55.932 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:56.364 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by laser, hp left=1
+2026-11-03 09:55:56.428 [JavaFX Application Thread] INFO  GameWorld - Laser mode ON for 10.0 seconds
+2026-11-03 09:55:56.860 [JavaFX Application Thread] INFO  GameWorld - Laser mode ON for 10.0 seconds
+2026-11-03 09:55:57.271 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:55:57.644 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +20 points (combo x1), score=1810
+2026-11-03 09:55:57.644 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:57.660 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:55:57.980 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +20 points (combo x1), score=1830
+2026-11-03 09:55:57.980 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:58.044 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by laser, hp left=1
+2026-11-03 09:55:58.183 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:55:58.443 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +20 points (combo x1), score=1850
+2026-11-03 09:55:58.443 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:58.443 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by laser, hp left=1
+2026-11-03 09:55:58.642 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:55:58.955 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +20 points (combo x1), score=1870
+2026-11-03 09:55:58.955 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:55:59.035 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:55:59.675 [JavaFX Application Thread] DEBUG GameWorld - Ball bounced off paddle
+2026-11-03 09:56:00.332 [JavaFX Application Thread] INFO  GameWorld - Laser mode ON for 10.0 seconds
+2026-11-03 09:56:00.407 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:56:00.811 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:56:00.874 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x0), score=1880
+2026-11-03 09:56:00.874 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:56:01.211 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:56:01.340 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x0), score=1890
+2026-11-03 09:56:01.340 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:56:01.612 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:56:01.835 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x0), score=1900
+2026-11-03 09:56:01.835 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:56:02.651 [JavaFX Application Thread] DEBUG GameWorld - Ball bounced off paddle
+2026-11-03 09:56:03.127 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:56:03.518 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:56:03.836 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by laser, hp left=1
+2026-11-03 09:56:03.928 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:56:04.252 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +20 points (combo x0), score=1920
+2026-11-03 09:56:04.252 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:56:04.332 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:56:04.700 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by laser, hp left=1
+2026-11-03 09:56:04.732 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:56:05.116 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +20 points (combo x0), score=1940
+2026-11-03 09:56:05.116 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:56:05.148 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:56:05.660 [JavaFX Application Thread] DEBUG GameWorld - Ball bounced off paddle
+2026-11-03 09:56:07.147 [JavaFX Application Thread] INFO  GameWorld - Laser mode ON for 10.0 seconds
+2026-11-03 09:56:07.388 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by ball, hp left=1
+2026-11-03 09:56:07.484 [JavaFX Application Thread] DEBUG GameWorld - Combo x2
+2026-11-03 09:56:07.484 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by ball, hp left=1
+2026-11-03 09:56:07.506 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:56:07.596 [JavaFX Application Thread] DEBUG GameWorld - Combo x3
+2026-11-03 09:56:07.596 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +20 points (combo x3), score=1960
+2026-11-03 09:56:07.596 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:56:07.724 [JavaFX Application Thread] DEBUG GameWorld - Combo x4
+2026-11-03 09:56:07.724 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +20 points (combo x4), score=1980
+2026-11-03 09:56:07.724 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:56:07.724 [JavaFX Application Thread] INFO  GameWorld - Stage 3 cleared, score=1980
+2026-11-03 09:56:07.724 [JavaFX Application Thread] DEBUG GameWorld - Upgrade choices offered: [Slow Ball, Extra Ball, Extra Life]
+2026-11-03 09:56:10.214 [JavaFX Application Thread] INFO  GameWorld - Upgrade chosen: Extra Life
+2026-11-03 09:56:10.215 [JavaFX Application Thread] INFO  GameWorld - Starting stage 4 (BOSS)
+2026-11-03 09:56:14.878 [JavaFX Application Thread] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=0)
+2026-11-03 09:56:14.892 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:56:15.452 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x4), score=1990
+2026-11-03 09:56:15.452 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:56:15.452 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x4), score=2000
+2026-11-03 09:56:15.452 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:56:15.499 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:56:15.867 [JavaFX Application Thread] DEBUG GameWorld - Boss fired a shot
+2026-11-03 09:56:15.883 [JavaFX Application Thread] INFO  GameWorld - Ball pierced a brick (7 pierces left)
+2026-11-03 09:56:15.883 [JavaFX Application Thread] DEBUG GameWorld - Combo x5
+2026-11-03 09:56:15.883 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +15 points (combo x5), score=2015
+2026-11-03 09:56:15.883 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:56:15.899 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:56:16.353 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:56:17.084 [JavaFX Application Thread] INFO  GameWorld - Ball pierced a brick (6 pierces left)
+2026-11-03 09:56:17.084 [JavaFX Application Thread] DEBUG GameWorld - Combo x6
+2026-11-03 09:56:17.084 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +15 points (combo x6), score=2030
+2026-11-03 09:56:17.084 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:56:17.148 [laser-timer] INFO  GameWorld - Laser mode OFF
+2026-11-03 09:56:17.468 [JavaFX Application Thread] DEBUG GameWorld - Boss fired a shot
+2026-11-03 09:56:17.612 [JavaFX Application Thread] INFO  GameWorld - Combo broken at x6
+2026-11-03 09:56:17.612 [JavaFX Application Thread] WARN  GameWorld - Paddle hit by boss shot, lives left=2
+2026-11-03 09:56:18.220 [JavaFX Application Thread] DEBUG GameWorld - Ball bounced off paddle
+2026-11-03 09:56:19.068 [JavaFX Application Thread] DEBUG GameWorld - Boss fired a shot
+2026-11-03 09:56:19.212 [JavaFX Application Thread] INFO  GameWorld - Ball pierced a brick (5 pierces left)
+2026-11-03 09:56:19.212 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x1), score=2040
+2026-11-03 09:56:19.212 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:56:20.363 [JavaFX Application Thread] INFO  GameWorld - Ball pierced a brick (4 pierces left)
+2026-11-03 09:56:20.363 [JavaFX Application Thread] DEBUG GameWorld - Combo x2
+2026-11-03 09:56:20.363 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x2), score=2050
+2026-11-03 09:56:20.363 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:56:20.683 [JavaFX Application Thread] DEBUG GameWorld - Boss fired a shot
+2026-11-03 09:56:21.596 [JavaFX Application Thread] WARN  GameWorld - Life lost, lives left=1
+2026-11-03 09:56:22.588 [JavaFX Application Thread] INFO  GameWorld - Laser mode ON for 10.0 seconds
+2026-11-03 09:56:23.058 [JavaFX Application Thread] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=0)
+2026-11-03 09:56:23.065 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:56:23.574 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:56:23.740 [JavaFX Application Thread] DEBUG GameWorld - Boss fired a shot
+2026-11-03 09:56:23.964 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:56:24.060 [JavaFX Application Thread] INFO  GameWorld - Ball pierced a brick (3 pierces left)
+2026-11-03 09:56:24.060 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x1), score=2060
+2026-11-03 09:56:24.060 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:56:24.444 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:56:24.828 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:56:25.257 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:56:25.260 [JavaFX Application Thread] INFO  GameWorld - Ball pierced a brick (2 pierces left)
+2026-11-03 09:56:25.260 [JavaFX Application Thread] DEBUG GameWorld - Combo x2
+2026-11-03 09:56:25.260 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x2), score=2070
+2026-11-03 09:56:25.260 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:56:25.340 [JavaFX Application Thread] DEBUG GameWorld - Boss fired a shot
+2026-11-03 09:56:25.659 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:56:25.803 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x2), score=2080
+2026-11-03 09:56:25.803 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:56:25.979 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by laser, hp left=24
+2026-11-03 09:56:26.219 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x2), score=2090
+2026-11-03 09:56:26.219 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:56:26.315 [JavaFX Application Thread] INFO  GameWorld - Laser mode ON for 10.0 seconds
+2026-11-03 09:56:26.555 [JavaFX Application Thread] WARN  GameWorld - Life lost, lives left=0
+2026-11-03 09:56:26.555 [JavaFX Application Thread] WARN  GameWorld - GAME OVER with score=2090
+2026-11-03 09:56:29.817 [JavaFX Application Thread] INFO  MainApp - Player returned to menu
+2026-11-03 09:56:43.393 [JavaFX Application Thread] INFO  Progress - Progress loaded: unlocked stage 4
+2026-11-03 09:56:43.492 [JavaFX Application Thread] INFO  MainApp - Sprite sheet loaded
+2026-11-03 09:56:43.496 [JavaFX Application Thread] INFO  MainApp - Boss sprite loaded
+2026-11-03 09:56:43.694 [JavaFX Application Thread] INFO  MainApp - Application started
+2026-11-03 09:56:44.592 [JavaFX Application Thread] INFO  Progress - Progress loaded: unlocked stage 4
+2026-11-03 09:56:44.670 [JavaFX Application Thread] INFO  MainApp - Sprite sheet loaded
+2026-11-03 09:56:44.674 [JavaFX Application Thread] INFO  MainApp - Boss sprite loaded
+2026-11-03 09:56:44.813 [JavaFX Application Thread] INFO  MainApp - Application started
+2026-11-03 09:56:52.366 [JavaFX Application Thread] INFO  GameWorld - New game started: stage=4, lives=3
+2026-11-03 09:56:53.833 [JavaFX Application Thread] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=0)
+2026-11-03 09:56:54.828 [JavaFX Application Thread] DEBUG GameWorld - Boss fired a shot
+2026-11-03 09:56:54.844 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x1), score=10
+2026-11-03 09:56:54.844 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:56:55.883 [JavaFX Application Thread] DEBUG GameWorld - Ball bounced off paddle
+2026-11-03 09:56:56.427 [JavaFX Application Thread] DEBUG GameWorld - Boss fired a shot
+2026-11-03 09:56:56.939 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x1), score=20
+2026-11-03 09:56:56.939 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:56:57.068 [JavaFX Application Thread] INFO  GameWorld - Laser mode ON for 10.0 seconds
+2026-11-03 09:56:57.996 [JavaFX Application Thread] DEBUG GameWorld - Ball bounced off paddle
+2026-11-03 09:56:58.044 [JavaFX Application Thread] DEBUG GameWorld - Boss fired a shot
+2026-11-03 09:56:58.875 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x1), score=30
+2026-11-03 09:56:58.875 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:56:59.163 [JavaFX Application Thread] INFO  GameWorld - Laser mode ON for 10.0 seconds
+2026-11-03 09:56:59.659 [JavaFX Application Thread] DEBUG GameWorld - Boss fired a shot
+2026-11-03 09:56:59.766 [JavaFX Application Thread] DEBUG GameWorld - Ball bounced off paddle
+2026-11-03 09:57:00.667 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x1), score=40
+2026-11-03 09:57:00.667 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:57:00.923 [JavaFX Application Thread] DEBUG GameWorld - Combo x2
+2026-11-03 09:57:00.923 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by ball, hp left=24
+2026-11-03 09:57:01.099 [JavaFX Application Thread] INFO  GameWorld - Laser mode ON for 10.0 seconds
+2026-11-03 09:57:01.275 [JavaFX Application Thread] DEBUG GameWorld - Boss fired a shot
+2026-11-03 09:57:01.445 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:57:01.995 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x2), score=50
+2026-11-03 09:57:01.995 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:57:01.995 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x2), score=60
+2026-11-03 09:57:01.995 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:57:02.092 [JavaFX Application Thread] DEBUG GameWorld - Ball bounced off paddle
+2026-11-03 09:57:02.599 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:57:02.875 [JavaFX Application Thread] DEBUG GameWorld - Boss fired a shot
+2026-11-03 09:57:02.892 [JavaFX Application Thread] INFO  GameWorld - Laser mode ON for 10.0 seconds
+2026-11-03 09:57:02.988 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:57:03.020 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x1), score=70
+2026-11-03 09:57:03.020 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:57:03.324 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by laser, hp left=23
+2026-11-03 09:57:03.324 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by laser, hp left=22
+2026-11-03 09:57:03.412 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:57:03.723 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by laser, hp left=21
+2026-11-03 09:57:03.963 [JavaFX Application Thread] DEBUG GameWorld - Ball bounced off paddle
+2026-11-03 09:57:04.139 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by laser, hp left=20
+2026-11-03 09:57:04.311 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:57:04.491 [JavaFX Application Thread] DEBUG GameWorld - Boss fired a shot
+2026-11-03 09:57:04.699 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:57:04.859 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x0), score=80
+2026-11-03 09:57:04.859 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:57:05.035 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by laser, hp left=19
+2026-11-03 09:57:05.243 [JavaFX Application Thread] INFO  GameWorld - Laser mode ON for 10.0 seconds
+2026-11-03 09:57:05.435 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by laser, hp left=18
+2026-11-03 09:57:05.435 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by laser, hp left=17
+2026-11-03 09:57:06.091 [JavaFX Application Thread] DEBUG GameWorld - Boss fired a shot
+2026-11-03 09:57:07.707 [JavaFX Application Thread] DEBUG GameWorld - Boss fired a shot
+2026-11-03 09:57:07.755 [JavaFX Application Thread] WARN  GameWorld - Paddle hit by boss shot, lives left=2
+2026-11-03 09:57:07.899 [JavaFX Application Thread] DEBUG GameWorld - Ball bounced off paddle
+2026-11-03 09:57:08.481 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:57:09.147 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by ball, hp left=16
+2026-11-03 09:57:09.163 [JavaFX Application Thread] DEBUG GameWorld - Combo x2
+2026-11-03 09:57:09.163 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by ball, hp left=15
+2026-11-03 09:57:09.179 [JavaFX Application Thread] DEBUG GameWorld - Combo x3
+2026-11-03 09:57:09.179 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by ball, hp left=14
+2026-11-03 09:57:09.195 [JavaFX Application Thread] DEBUG GameWorld - Combo x4
+2026-11-03 09:57:09.195 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by ball, hp left=13
+2026-11-03 09:57:09.211 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by laser, hp left=12
+2026-11-03 09:57:09.211 [JavaFX Application Thread] DEBUG GameWorld - Combo x5
+2026-11-03 09:57:09.211 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by ball, hp left=11
+2026-11-03 09:57:09.228 [JavaFX Application Thread] DEBUG GameWorld - Combo x6
+2026-11-03 09:57:09.228 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by ball, hp left=10
+2026-11-03 09:57:09.244 [JavaFX Application Thread] DEBUG GameWorld - Combo x7
+2026-11-03 09:57:09.244 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by ball, hp left=9
+2026-11-03 09:57:09.260 [JavaFX Application Thread] DEBUG GameWorld - Combo x8
+2026-11-03 09:57:09.260 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by ball, hp left=8
+2026-11-03 09:57:09.276 [JavaFX Application Thread] DEBUG GameWorld - Combo x9
+2026-11-03 09:57:09.276 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by ball, hp left=7
+2026-11-03 09:57:09.292 [JavaFX Application Thread] DEBUG GameWorld - Combo x10
+2026-11-03 09:57:09.292 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by ball, hp left=6
+2026-11-03 09:57:09.307 [JavaFX Application Thread] DEBUG GameWorld - Boss fired a shot
+2026-11-03 09:57:09.307 [JavaFX Application Thread] DEBUG GameWorld - Combo x11
+2026-11-03 09:57:09.307 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by ball, hp left=5
+2026-11-03 09:57:09.323 [JavaFX Application Thread] DEBUG GameWorld - Combo x12
+2026-11-03 09:57:09.323 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by ball, hp left=4
+2026-11-03 09:57:09.339 [JavaFX Application Thread] DEBUG GameWorld - Combo x13
+2026-11-03 09:57:09.339 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by ball, hp left=3
+2026-11-03 09:57:09.355 [JavaFX Application Thread] DEBUG GameWorld - Combo x14
+2026-11-03 09:57:09.355 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by ball, hp left=2
+2026-11-03 09:57:09.371 [JavaFX Application Thread] DEBUG GameWorld - Combo x15
+2026-11-03 09:57:09.371 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by ball, hp left=1
+2026-11-03 09:57:09.387 [JavaFX Application Thread] DEBUG GameWorld - Combo x16
+2026-11-03 09:57:09.387 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +1500 points (combo x16), score=1580
+2026-11-03 09:57:09.387 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:57:09.811 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:57:10.731 [JavaFX Application Thread] DEBUG GameWorld - Ball bounced off paddle
+2026-11-03 09:57:10.731 [JavaFX Application Thread] INFO  GameWorld - Combo broken at x16
+2026-11-03 09:57:12.299 [JavaFX Application Thread] INFO  GameWorld - Laser mode ON for 10.0 seconds
+2026-11-03 09:57:12.912 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:57:13.467 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x0), score=1590
+2026-11-03 09:57:13.467 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:57:14.131 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 09:57:14.684 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x0), score=1600
+2026-11-03 09:57:14.684 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 09:57:14.684 [JavaFX Application Thread] INFO  GameWorld - Stage 4 cleared, score=1600
+2026-11-03 09:57:14.684 [JavaFX Application Thread] INFO  GameWorld - Player WON the game with score=1600
+2026-11-03 09:57:17.467 [JavaFX Application Thread] INFO  MainApp - Player returned to menu
+2026-11-03 09:57:22.300 [laser-timer] INFO  GameWorld - Laser mode OFF
+2026-11-03 10:01:51.021 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:01:51.026 [main] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=0)
+2026-11-03 10:01:51.027 [main] INFO  GameWorld - Ball pierced a brick (7 pierces left)
+2026-11-03 10:01:51.028 [main] INFO  GameWorld - Brick destroyed by ball: +20 points (combo x1), score=20
+2026-11-03 10:01:51.030 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:01:51.031 [main] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=1)
+2026-11-03 10:01:51.033 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:01:51.033 [main] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=1)
+2026-11-03 10:01:51.033 [main] INFO  GameWorld - Main ball lost, extra ball takes over (0 left)
+2026-11-03 10:01:51.034 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:01:51.035 [main] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=1)
+2026-11-03 10:01:51.043 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:01:51.044 [main] INFO  GameWorld - Stage 1 cleared, score=0
+2026-11-03 10:01:51.050 [main] DEBUG GameWorld - Upgrade choices offered: [Score Boost, Piercing Ball, Extra Ball]
+2026-11-03 10:01:51.051 [main] INFO  GameWorld - Upgrade chosen: Score Boost
+2026-11-03 10:01:51.051 [main] INFO  GameWorld - Starting stage 2
+2026-11-03 10:01:51.051 [main] INFO  GameWorld - Stage 2 cleared, score=0
+2026-11-03 10:01:51.051 [main] DEBUG GameWorld - Upgrade choices offered: [Fast Paddle, Extra Ball, Piercing Ball]
+2026-11-03 10:01:51.051 [main] INFO  GameWorld - Upgrade chosen: Fast Paddle
+2026-11-03 10:01:51.052 [main] INFO  GameWorld - Starting stage 3
+2026-11-03 10:01:51.052 [main] INFO  GameWorld - Stage 3 cleared, score=0
+2026-11-03 10:01:51.052 [main] DEBUG GameWorld - Upgrade choices offered: [Extra Life, Fast Paddle, Slow Ball]
+2026-11-03 10:01:51.052 [main] INFO  GameWorld - Upgrade chosen: Extra Life
+2026-11-03 10:01:51.052 [main] INFO  GameWorld - Starting stage 4 (BOSS)
+2026-11-03 10:01:51.052 [main] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=0)
+2026-11-03 10:01:51.053 [main] WARN  GameWorld - Paddle hit by boss shot, lives left=3
+2026-11-03 10:01:51.059 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:01:51.060 [main] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=0)
+2026-11-03 10:01:51.062 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:01:51.062 [main] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=0)
+2026-11-03 10:01:51.077 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:01:51.077 [main] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=0)
+2026-11-03 10:01:51.077 [main] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x1), score=10
+2026-11-03 10:01:51.078 [main] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:01:51.079 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:01:51.080 [main] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=0)
+2026-11-03 10:01:51.080 [main] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x1), score=10
+2026-11-03 10:01:51.080 [main] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:01:51.080 [main] WARN  GameWorld - Life lost, lives left=2
+2026-11-03 10:01:51.085 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:01:51.086 [main] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=0)
+2026-11-03 10:01:51.086 [main] INFO  GameWorld - Stage 1 cleared, score=0
+2026-11-03 10:01:51.086 [main] DEBUG GameWorld - Upgrade choices offered: [Fast Paddle, Wide Paddle, Extra Life]
+2026-11-03 10:01:51.088 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:01:51.088 [main] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=0)
+2026-11-03 10:01:51.088 [main] INFO  GameWorld - Stage 1 cleared, score=0
+2026-11-03 10:01:51.088 [main] DEBUG GameWorld - Upgrade choices offered: [Slow Ball, Wide Paddle, Extra Ball]
+2026-11-03 10:01:51.088 [main] INFO  GameWorld - Upgrade chosen: Slow Ball
+2026-11-03 10:01:51.088 [main] INFO  GameWorld - Starting stage 2
+2026-11-03 10:01:51.089 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:01:51.089 [main] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=0)
+2026-11-03 10:01:51.089 [main] WARN  GameWorld - Life lost, lives left=2
+2026-11-03 10:01:51.090 [main] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=0)
+2026-11-03 10:01:51.090 [main] WARN  GameWorld - Life lost, lives left=1
+2026-11-03 10:01:51.090 [main] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=0)
+2026-11-03 10:01:51.090 [main] WARN  GameWorld - Life lost, lives left=0
+2026-11-03 10:01:51.090 [main] WARN  GameWorld - GAME OVER with score=0
+2026-11-03 10:01:51.090 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:01:51.091 [main] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=0)
+2026-11-03 10:01:51.091 [main] WARN  GameWorld - Life lost, lives left=2
+2026-11-03 10:01:51.092 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:01:51.092 [main] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=0)
+2026-11-03 10:01:51.092 [main] INFO  GameWorld - Stage 1 cleared, score=0
+2026-11-03 10:01:51.092 [main] DEBUG GameWorld - Upgrade choices offered: [Slow Ball, Fast Paddle, Piercing Ball]
+2026-11-03 10:01:51.094 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:01:51.095 [main] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=0)
+2026-11-03 10:01:51.095 [main] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x1), score=10
+2026-11-03 10:01:51.095 [main] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:01:51.096 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:01:51.097 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:01:51.099 [main] INFO  GameWorld - New game started: stage=3, lives=3
+2026-11-03 10:01:51.141 [main] INFO  Progress - Unlocked stage 3
+2026-11-03 10:01:51.149 [main] INFO  Progress - Unlocked stage 3
+2026-11-03 10:01:51.149 [main] INFO  Progress - Progress loaded: unlocked stage 3
+2026-11-03 10:01:51.152 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:01:51.153 [main] INFO  GameWorld - Laser mode ON for 10.0 seconds
+2026-11-03 10:01:51.153 [main] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 10:01:51.153 [main] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 10:01:51.154 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:01:51.155 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:01:51.155 [main] INFO  GameWorld - Laser mode ON for 0.05 seconds
+2026-11-03 10:01:51.215 [laser-timer] INFO  GameWorld - Laser mode OFF
+2026-11-03 10:01:51.458 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:01:51.458 [main] INFO  GameWorld - Laser mode ON for 10.0 seconds
+2026-11-03 10:01:51.458 [main] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 10:01:51.460 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:01:51.460 [main] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x0), score=10
+2026-11-03 10:01:51.461 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:01:51.461 [main] INFO  GameWorld - Laser mode ON for 10.0 seconds
+2026-11-03 10:01:51.462 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:01:51.464 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:01:51.466 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:01:51.468 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:01:51.468 [main] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=0)
+2026-11-03 10:01:51.468 [main] INFO  GameWorld - Brick destroyed by ball: +15 points (combo x1), score=15
+2026-11-03 10:01:51.468 [main] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:04:23.588 [JavaFX Application Thread] INFO  Progress - Progress loaded: unlocked stage 4
+2026-11-03 10:04:23.667 [JavaFX Application Thread] INFO  MainApp - Sprite sheet loaded
+2026-11-03 10:04:23.671 [JavaFX Application Thread] INFO  MainApp - Boss sprite loaded
+2026-11-03 10:04:23.821 [JavaFX Application Thread] INFO  MainApp - Application started
+2026-11-03 10:04:25.132 [JavaFX Application Thread] INFO  Progress - Progress loaded: unlocked stage 4
+2026-11-03 10:04:25.208 [JavaFX Application Thread] INFO  MainApp - Sprite sheet loaded
+2026-11-03 10:04:25.212 [JavaFX Application Thread] INFO  MainApp - Boss sprite loaded
+2026-11-03 10:04:25.358 [JavaFX Application Thread] INFO  MainApp - Application started
+2026-11-03 10:08:22.024 [JavaFX Application Thread] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:08:24.541 [JavaFX Application Thread] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=0)
+2026-11-03 10:08:25.590 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x1), score=10
+2026-11-03 10:08:25.590 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:08:26.644 [JavaFX Application Thread] DEBUG GameWorld - Ball bounced off paddle
+2026-11-03 10:08:27.651 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x1), score=20
+2026-11-03 10:08:27.651 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:08:27.874 [JavaFX Application Thread] INFO  GameWorld - Laser mode ON for 10.0 seconds
+2026-11-03 10:08:28.047 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 10:08:28.440 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 10:08:28.610 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x1), score=30
+2026-11-03 10:08:28.610 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:08:28.658 [JavaFX Application Thread] DEBUG GameWorld - Ball bounced off paddle
+2026-11-03 10:08:28.712 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x0), score=40
+2026-11-03 10:08:28.712 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:08:29.061 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x0), score=50
+2026-11-03 10:08:29.062 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:08:29.101 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 10:08:29.173 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x0), score=60
+2026-11-03 10:08:29.173 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:08:29.599 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 10:08:29.727 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x1), score=70
+2026-11-03 10:08:29.727 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:08:29.825 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x1), score=80
+2026-11-03 10:08:29.825 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:08:29.873 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by laser, hp left=1
+2026-11-03 10:08:30.012 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 10:08:30.135 [JavaFX Application Thread] INFO  GameWorld - Laser mode ON for 10.0 seconds
+2026-11-03 10:08:30.165 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x1), score=90
+2026-11-03 10:08:30.165 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:08:30.407 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 10:08:30.630 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x1), score=100
+2026-11-03 10:08:30.630 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:08:30.803 [JavaFX Application Thread] DEBUG GameWorld - Ball bounced off paddle
+2026-11-03 10:08:30.807 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 10:08:31.079 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x0), score=110
+2026-11-03 10:08:31.079 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:08:31.278 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 10:08:31.540 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x0), score=120
+2026-11-03 10:08:31.540 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:08:31.543 [JavaFX Application Thread] INFO  GameWorld - Laser mode ON for 10.0 seconds
+2026-11-03 10:08:31.679 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 10:08:31.845 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x0), score=130
+2026-11-03 10:08:31.845 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:08:32.047 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +20 points (combo x0), score=150
+2026-11-03 10:08:32.047 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:08:32.081 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 10:08:32.303 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x0), score=160
+2026-11-03 10:08:32.304 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:08:32.373 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x1), score=170
+2026-11-03 10:08:32.373 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:08:32.484 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 10:08:32.658 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x1), score=180
+2026-11-03 10:08:32.658 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:08:32.754 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x1), score=190
+2026-11-03 10:08:32.755 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:08:32.887 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 10:08:33.061 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x1), score=200
+2026-11-03 10:08:33.061 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:08:33.061 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x1), score=210
+2026-11-03 10:08:33.061 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:08:33.512 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x1), score=220
+2026-11-03 10:08:33.512 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:08:33.956 [JavaFX Application Thread] DEBUG GameWorld - Ball bounced off paddle
+2026-11-03 10:08:34.943 [JavaFX Application Thread] INFO  GameWorld - Laser mode ON for 10.0 seconds
+2026-11-03 10:08:35.063 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x1), score=230
+2026-11-03 10:08:35.063 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:08:36.325 [JavaFX Application Thread] WARN  GameWorld - Life lost, lives left=2
+2026-11-03 10:08:37.071 [JavaFX Application Thread] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=0)
+2026-11-03 10:08:37.075 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 10:08:37.650 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x0), score=240
+2026-11-03 10:08:37.650 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:08:37.699 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x0), score=250
+2026-11-03 10:08:37.699 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:08:37.717 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 10:08:38.116 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 10:08:38.338 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x0), score=260
+2026-11-03 10:08:38.338 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:08:38.386 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x0), score=270
+2026-11-03 10:08:38.387 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:08:38.484 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by ball, hp left=1
+2026-11-03 10:08:38.487 [JavaFX Application Thread] DEBUG GameWorld - Combo x2
+2026-11-03 10:08:38.487 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +20 points (combo x2), score=290
+2026-11-03 10:08:38.487 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:08:38.518 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 10:08:38.790 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x2), score=300
+2026-11-03 10:08:38.790 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:08:38.838 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x2), score=310
+2026-11-03 10:08:38.838 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:08:38.929 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 10:08:38.935 [JavaFX Application Thread] DEBUG GameWorld - Combo x3
+2026-11-03 10:08:38.935 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by ball, hp left=1
+2026-11-03 10:08:39.248 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x3), score=320
+2026-11-03 10:08:39.248 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:08:39.297 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by laser, hp left=1
+2026-11-03 10:08:39.331 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 10:08:39.699 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +20 points (combo x3), score=340
+2026-11-03 10:08:39.700 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:08:39.700 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by laser, hp left=1
+2026-11-03 10:08:39.735 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 10:08:39.936 [JavaFX Application Thread] INFO  GameWorld - Laser mode ON for 10.0 seconds
+2026-11-03 10:08:40.102 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +20 points (combo x3), score=360
+2026-11-03 10:08:40.103 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:08:40.136 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 10:08:40.184 [JavaFX Application Thread] INFO  GameWorld - Laser mode ON for 10.0 seconds
+2026-11-03 10:08:40.561 [JavaFX Application Thread] WARN  GameWorld - Life lost, lives left=1
+2026-11-03 10:08:40.824 [JavaFX Application Thread] INFO  GameWorld - Laser mode ON for 10.0 seconds
+2026-11-03 10:08:40.894 [JavaFX Application Thread] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=0)
+2026-11-03 10:08:40.901 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 10:08:41.074 [JavaFX Application Thread] INFO  GameWorld - Laser mode ON for 10.0 seconds
+2026-11-03 10:08:41.315 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 10:08:41.471 [JavaFX Application Thread] INFO  GameWorld - Laser mode ON for 10.0 seconds
+2026-11-03 10:08:41.823 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 10:08:42.215 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 10:08:42.435 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x0), score=370
+2026-11-03 10:08:42.436 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:08:42.535 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x0), score=380
+2026-11-03 10:08:42.535 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:08:42.670 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 10:08:42.754 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +20 points (combo x1), score=400
+2026-11-03 10:08:42.755 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:08:42.887 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x1), score=410
+2026-11-03 10:08:42.887 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:08:42.991 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by laser, hp left=1
+2026-11-03 10:08:43.116 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 10:08:43.394 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x1), score=420
+2026-11-03 10:08:43.394 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:08:43.443 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +20 points (combo x1), score=440
+2026-11-03 10:08:43.443 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:08:43.555 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 10:08:43.887 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by laser, hp left=1
+2026-11-03 10:08:43.956 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 10:08:44.324 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +20 points (combo x1), score=460
+2026-11-03 10:08:44.324 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:08:44.387 [JavaFX Application Thread] WARN  GameWorld - Life lost, lives left=0
+2026-11-03 10:08:44.387 [JavaFX Application Thread] WARN  GameWorld - GAME OVER with score=460
+2026-11-03 10:08:45.267 [JavaFX Application Thread] INFO  MainApp - Player returned to menu
+2026-11-03 10:08:48.046 [JavaFX Application Thread] INFO  GameWorld - New game started: stage=4, lives=3
+2026-11-03 10:08:48.561 [JavaFX Application Thread] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=0)
+2026-11-03 10:08:49.555 [JavaFX Application Thread] DEBUG GameWorld - Boss fired a shot
+2026-11-03 10:08:49.568 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x1), score=10
+2026-11-03 10:08:49.568 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:08:50.743 [JavaFX Application Thread] WARN  GameWorld - Life lost, lives left=2
+2026-11-03 10:08:51.175 [JavaFX Application Thread] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=0)
+2026-11-03 10:08:51.472 [laser-timer] INFO  GameWorld - Laser mode OFF
+2026-11-03 10:08:51.588 [JavaFX Application Thread] DEBUG GameWorld - Boss fired a shot
+2026-11-03 10:08:51.956 [JavaFX Application Thread] INFO  GameWorld - Laser mode ON for 10.0 seconds
+2026-11-03 10:08:52.192 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x1), score=20
+2026-11-03 10:08:52.192 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:08:53.191 [JavaFX Application Thread] DEBUG GameWorld - Boss fired a shot
+2026-11-03 10:08:53.219 [JavaFX Application Thread] DEBUG GameWorld - Ball bounced off paddle
+2026-11-03 10:08:54.119 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x1), score=30
+2026-11-03 10:08:54.119 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:08:54.407 [JavaFX Application Thread] INFO  GameWorld - Laser mode ON for 10.0 seconds
+2026-11-03 10:08:54.803 [JavaFX Application Thread] DEBUG GameWorld - Boss fired a shot
+2026-11-03 10:08:55.159 [JavaFX Application Thread] WARN  GameWorld - Life lost, lives left=1
+2026-11-03 10:08:55.838 [JavaFX Application Thread] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=0)
+2026-11-03 10:08:55.845 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 10:08:56.338 [JavaFX Application Thread] INFO  GameWorld - Laser mode ON for 10.0 seconds
+2026-11-03 10:08:56.400 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x0), score=40
+2026-11-03 10:08:56.401 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:08:57.079 [JavaFX Application Thread] DEBUG GameWorld - Boss fired a shot
+2026-11-03 10:08:58.046 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x1), score=50
+2026-11-03 10:08:58.047 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:08:58.692 [JavaFX Application Thread] DEBUG GameWorld - Boss fired a shot
+2026-11-03 10:08:58.754 [JavaFX Application Thread] WARN  GameWorld - Paddle hit by boss shot, lives left=0
+2026-11-03 10:08:58.754 [JavaFX Application Thread] WARN  GameWorld - GAME OVER with score=50
+2026-11-03 10:09:00.687 [JavaFX Application Thread] INFO  MainApp - Player returned to menu
+2026-11-03 10:09:06.340 [laser-timer] INFO  GameWorld - Laser mode OFF
+2026-11-03 10:21:25.311 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:21:25.316 [main] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=0)
+2026-11-03 10:21:25.318 [main] INFO  GameWorld - Ball pierced a brick (7 pierces left)
+2026-11-03 10:21:25.318 [main] INFO  GameWorld - Brick destroyed by ball: +20 points (combo x1), score=20
+2026-11-03 10:21:25.321 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:21:25.323 [main] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=1)
+2026-11-03 10:21:25.325 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:21:25.325 [main] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=1)
+2026-11-03 10:21:25.325 [main] INFO  GameWorld - Main ball lost, extra ball takes over (0 left)
+2026-11-03 10:21:25.326 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:21:25.326 [main] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=1)
+2026-11-03 10:21:25.333 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:21:25.334 [main] INFO  GameWorld - Stage 1 cleared, score=0
+2026-11-03 10:21:25.340 [main] DEBUG GameWorld - Upgrade choices offered: [Piercing Ball, Fast Paddle, Score Boost]
+2026-11-03 10:21:25.340 [main] INFO  GameWorld - Upgrade chosen: Piercing Ball
+2026-11-03 10:21:25.340 [main] INFO  GameWorld - Starting stage 2
+2026-11-03 10:21:25.341 [main] INFO  GameWorld - Stage 2 cleared, score=0
+2026-11-03 10:21:25.341 [main] DEBUG GameWorld - Upgrade choices offered: [Extra Life, Wide Paddle, Piercing Ball]
+2026-11-03 10:21:25.341 [main] INFO  GameWorld - Upgrade chosen: Extra Life
+2026-11-03 10:21:25.341 [main] INFO  GameWorld - Starting stage 3
+2026-11-03 10:21:25.341 [main] INFO  GameWorld - Stage 3 cleared, score=0
+2026-11-03 10:21:25.341 [main] DEBUG GameWorld - Upgrade choices offered: [Score Boost, Wide Paddle, Fast Paddle]
+2026-11-03 10:21:25.341 [main] INFO  GameWorld - Upgrade chosen: Score Boost
+2026-11-03 10:21:25.341 [main] INFO  GameWorld - Starting stage 4 (BOSS)
+2026-11-03 10:21:25.342 [main] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=0)
+2026-11-03 10:21:25.343 [main] WARN  GameWorld - Paddle hit by boss shot, lives left=3
+2026-11-03 10:21:25.350 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:21:25.350 [main] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=0)
+2026-11-03 10:21:25.351 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:21:25.352 [main] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=0)
+2026-11-03 10:21:25.364 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:21:25.365 [main] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=0)
+2026-11-03 10:21:25.365 [main] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x1), score=10
+2026-11-03 10:21:25.367 [main] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:21:25.369 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:21:25.369 [main] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=0)
+2026-11-03 10:21:25.369 [main] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x1), score=10
+2026-11-03 10:21:25.369 [main] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:21:25.369 [main] WARN  GameWorld - Life lost, lives left=2
+2026-11-03 10:21:25.374 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:21:25.374 [main] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=0)
+2026-11-03 10:21:25.374 [main] INFO  GameWorld - Stage 1 cleared, score=0
+2026-11-03 10:21:25.374 [main] DEBUG GameWorld - Upgrade choices offered: [Extra Ball, Piercing Ball, Fast Paddle]
+2026-11-03 10:21:25.376 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:21:25.376 [main] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=0)
+2026-11-03 10:21:25.376 [main] INFO  GameWorld - Stage 1 cleared, score=0
+2026-11-03 10:21:25.376 [main] DEBUG GameWorld - Upgrade choices offered: [Fast Paddle, Extra Life, Slow Ball]
+2026-11-03 10:21:25.376 [main] INFO  GameWorld - Upgrade chosen: Fast Paddle
+2026-11-03 10:21:25.376 [main] INFO  GameWorld - Starting stage 2
+2026-11-03 10:21:25.377 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:21:25.377 [main] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=0)
+2026-11-03 10:21:25.377 [main] WARN  GameWorld - Life lost, lives left=2
+2026-11-03 10:21:25.377 [main] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=0)
+2026-11-03 10:21:25.378 [main] WARN  GameWorld - Life lost, lives left=1
+2026-11-03 10:21:25.378 [main] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=0)
+2026-11-03 10:21:25.378 [main] WARN  GameWorld - Life lost, lives left=0
+2026-11-03 10:21:25.378 [main] WARN  GameWorld - GAME OVER with score=0
+2026-11-03 10:21:25.380 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:21:25.380 [main] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=0)
+2026-11-03 10:21:25.380 [main] WARN  GameWorld - Life lost, lives left=2
+2026-11-03 10:21:25.381 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:21:25.381 [main] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=0)
+2026-11-03 10:21:25.381 [main] INFO  GameWorld - Stage 1 cleared, score=0
+2026-11-03 10:21:25.382 [main] DEBUG GameWorld - Upgrade choices offered: [Extra Ball, Piercing Ball, Score Boost]
+2026-11-03 10:21:25.383 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:21:25.383 [main] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=0)
+2026-11-03 10:21:25.384 [main] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x1), score=10
+2026-11-03 10:21:25.384 [main] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:21:25.386 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:21:25.387 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:21:25.390 [main] INFO  GameWorld - New game started: stage=3, lives=3
+2026-11-03 10:21:25.435 [main] INFO  Progress - Unlocked stage 3
+2026-11-03 10:21:25.443 [main] INFO  Progress - Unlocked stage 3
+2026-11-03 10:21:25.444 [main] INFO  Progress - Progress loaded: unlocked stage 3
+2026-11-03 10:21:25.448 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:21:25.448 [main] INFO  GameWorld - Laser mode ON for 10.0 seconds
+2026-11-03 10:21:25.449 [main] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 10:21:25.449 [main] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 10:21:25.450 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:21:25.451 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:21:25.451 [main] INFO  GameWorld - Laser mode ON for 0.05 seconds
+2026-11-03 10:21:25.502 [laser-timer] INFO  GameWorld - Laser mode OFF
+2026-11-03 10:21:25.766 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:21:25.766 [main] INFO  GameWorld - Laser mode ON for 10.0 seconds
+2026-11-03 10:21:25.766 [main] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 10:21:25.768 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:21:25.768 [main] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x0), score=10
+2026-11-03 10:21:25.769 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:21:25.769 [main] INFO  GameWorld - Laser mode ON for 10.0 seconds
+2026-11-03 10:21:25.771 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:21:25.773 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:21:25.775 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:21:25.776 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:21:25.776 [main] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=0)
+2026-11-03 10:21:25.776 [main] INFO  GameWorld - Brick destroyed by ball: +15 points (combo x1), score=15
+2026-11-03 10:21:25.777 [main] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:24:40.870 [JavaFX Application Thread] INFO  Progress - Progress loaded: unlocked stage 4
+2026-11-03 10:24:40.948 [JavaFX Application Thread] INFO  MainApp - Sprite sheet loaded
+2026-11-03 10:24:40.952 [JavaFX Application Thread] INFO  MainApp - Boss sprite loaded
+2026-11-03 10:24:41.113 [JavaFX Application Thread] INFO  MainApp - Application started
+2026-11-03 10:24:42.798 [JavaFX Application Thread] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:24:43.400 [JavaFX Application Thread] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=0)
+2026-11-03 10:24:44.442 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x1), score=10
+2026-11-03 10:24:45.497 [JavaFX Application Thread] DEBUG GameWorld - Ball bounced off paddle
+2026-11-03 10:24:47.212 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x1), score=20
+2026-11-03 10:24:47.217 [JavaFX Application Thread] DEBUG GameWorld - Combo x2
+2026-11-03 10:24:47.217 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x2), score=30
+2026-11-03 10:24:47.361 [JavaFX Application Thread] DEBUG GameWorld - Combo x3
+2026-11-03 10:24:47.361 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x3), score=40
+2026-11-03 10:24:47.441 [JavaFX Application Thread] DEBUG GameWorld - Combo x4
+2026-11-03 10:24:47.441 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x4), score=50
+2026-11-03 10:24:49.217 [JavaFX Application Thread] DEBUG GameWorld - Ball bounced off paddle
+2026-11-03 10:24:50.801 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x1), score=60
+2026-11-03 10:24:52.392 [JavaFX Application Thread] DEBUG GameWorld - Ball bounced off paddle
+2026-11-03 10:24:53.483 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x1), score=70
+2026-11-03 10:24:54.577 [JavaFX Application Thread] DEBUG GameWorld - Ball bounced off paddle
+2026-11-03 10:24:55.691 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x1), score=80
+2026-11-03 10:24:56.961 [JavaFX Application Thread] WARN  GameWorld - Life lost, lives left=2
+2026-11-03 10:25:02.850 [JavaFX Application Thread] INFO  Progress - Progress loaded: unlocked stage 4
+2026-11-03 10:25:02.932 [JavaFX Application Thread] INFO  MainApp - Sprite sheet loaded
+2026-11-03 10:25:02.936 [JavaFX Application Thread] INFO  MainApp - Boss sprite loaded
+2026-11-03 10:25:03.111 [JavaFX Application Thread] INFO  MainApp - Application started
+2026-11-03 10:25:24.380 [JavaFX Application Thread] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:25:25.201 [JavaFX Application Thread] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=0)
+2026-11-03 10:25:26.246 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x1), score=10
+2026-11-03 10:25:27.301 [JavaFX Application Thread] DEBUG GameWorld - Ball bounced off paddle
+2026-11-03 10:25:28.620 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x1), score=20
+2026-11-03 10:25:29.940 [JavaFX Application Thread] DEBUG GameWorld - Ball bounced off paddle
+2026-11-03 10:25:30.856 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x1), score=30
+2026-11-03 10:25:31.773 [JavaFX Application Thread] DEBUG GameWorld - Ball bounced off paddle
+2026-11-03 10:25:32.710 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x1), score=40
+2026-11-03 10:25:33.654 [JavaFX Application Thread] DEBUG GameWorld - Ball bounced off paddle
+2026-11-03 10:25:35.384 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x1), score=50
+2026-11-03 10:25:37.117 [JavaFX Application Thread] DEBUG GameWorld - Ball bounced off paddle
+2026-11-03 10:25:38.168 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x1), score=60
+2026-11-03 10:25:39.224 [JavaFX Application Thread] DEBUG GameWorld - Ball bounced off paddle
+2026-11-03 10:25:40.253 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x1), score=70
+2026-11-03 10:27:07.794 [JavaFX Application Thread] INFO  Progress - Progress loaded: unlocked stage 4
+2026-11-03 10:27:07.863 [JavaFX Application Thread] INFO  MainApp - Sprite sheet loaded
+2026-11-03 10:27:07.867 [JavaFX Application Thread] INFO  MainApp - Boss sprite loaded
+2026-11-03 10:27:07.984 [JavaFX Application Thread] INFO  MainApp - Application started
+2026-11-03 10:27:15.556 [JavaFX Application Thread] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:27:16.178 [JavaFX Application Thread] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=0)
+2026-11-03 10:27:17.222 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x1), score=10
+2026-11-03 10:27:18.277 [JavaFX Application Thread] DEBUG GameWorld - Ball bounced off paddle
+2026-11-03 10:27:19.556 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x1), score=20
+2026-11-03 10:27:20.839 [JavaFX Application Thread] DEBUG GameWorld - Ball bounced off paddle
+2026-11-03 10:27:21.777 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x1), score=30
+2026-11-03 10:27:22.721 [JavaFX Application Thread] DEBUG GameWorld - Ball bounced off paddle
+2026-11-03 10:27:23.638 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x1), score=40
+2026-11-03 10:27:24.561 [JavaFX Application Thread] DEBUG GameWorld - Ball bounced off paddle
+2026-11-03 10:27:26.499 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x1), score=50
+2026-11-03 10:27:26.505 [JavaFX Application Thread] DEBUG GameWorld - Combo x2
+2026-11-03 10:27:26.505 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x2), score=60
+2026-11-03 10:27:28.436 [JavaFX Application Thread] DEBUG GameWorld - Ball bounced off paddle
+2026-11-03 10:27:29.443 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x1), score=70
+2026-11-03 10:27:30.596 [JavaFX Application Thread] WARN  GameWorld - Life lost, lives left=2
+2026-11-03 10:30:21.550 [JavaFX Application Thread] INFO  Progress - Progress loaded: unlocked stage 4
+2026-11-03 10:30:21.631 [JavaFX Application Thread] INFO  MainApp - Sprite sheet loaded
+2026-11-03 10:30:21.635 [JavaFX Application Thread] INFO  MainApp - Boss sprite loaded
+2026-11-03 10:30:21.789 [JavaFX Application Thread] INFO  MainApp - Application started
+2026-11-03 10:30:36.550 [JavaFX Application Thread] INFO  Progress - Progress loaded: unlocked stage 4
+2026-11-03 10:30:36.628 [JavaFX Application Thread] INFO  MainApp - Sprite sheet loaded
+2026-11-03 10:30:36.632 [JavaFX Application Thread] INFO  MainApp - Boss sprite loaded
+2026-11-03 10:30:36.776 [JavaFX Application Thread] INFO  MainApp - Application started
+2026-11-03 10:30:38.257 [JavaFX Application Thread] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:30:39.487 [JavaFX Application Thread] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=0)
+2026-11-03 10:30:40.543 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x1), score=10
+2026-11-03 10:30:40.543 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:30:41.598 [JavaFX Application Thread] DEBUG GameWorld - Ball bounced off paddle
+2026-11-03 10:30:42.827 [JavaFX Application Thread] INFO  GameWorld - Laser mode ON for 10.0 seconds
+2026-11-03 10:30:42.875 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x1), score=20
+2026-11-03 10:30:42.875 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:30:43.039 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 10:30:43.097 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x1), score=30
+2026-11-03 10:30:43.097 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:30:43.097 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x1), score=40
+2026-11-03 10:30:43.097 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:30:44.153 [JavaFX Application Thread] DEBUG GameWorld - Ball bounced off paddle
+2026-11-03 10:30:44.363 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 10:30:44.431 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x0), score=50
+2026-11-03 10:30:44.431 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:30:44.431 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x0), score=60
+2026-11-03 10:30:44.431 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:30:44.763 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 10:30:44.826 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x0), score=70
+2026-11-03 10:30:44.826 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:30:44.826 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x0), score=80
+2026-11-03 10:30:44.827 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:30:45.069 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x1), score=90
+2026-11-03 10:30:45.069 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:30:45.166 [JavaFX Application Thread] INFO  GameWorld - Laser mode ON for 10.0 seconds
+2026-11-03 10:30:45.231 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 10:30:45.291 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x1), score=100
+2026-11-03 10:30:45.291 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:30:45.297 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x1), score=110
+2026-11-03 10:30:45.297 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:30:45.583 [JavaFX Application Thread] INFO  GameWorld - Laser mode ON for 10.0 seconds
+2026-11-03 10:30:45.583 [JavaFX Application Thread] INFO  GameWorld - Laser mode ON for 10.0 seconds
+2026-11-03 10:30:45.632 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 10:30:45.694 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x1), score=120
+2026-11-03 10:30:45.694 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:30:45.708 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x1), score=130
+2026-11-03 10:30:45.708 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:30:45.985 [JavaFX Application Thread] DEBUG GameWorld - Ball bounced off paddle
+2026-11-03 10:30:46.033 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 10:30:46.097 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x0), score=140
+2026-11-03 10:30:46.097 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:30:46.104 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x0), score=150
+2026-11-03 10:30:46.104 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:30:46.444 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 10:30:46.506 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x0), score=160
+2026-11-03 10:30:46.506 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:30:46.507 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x0), score=170
+2026-11-03 10:30:46.507 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:30:46.858 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 10:30:46.923 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x0), score=180
+2026-11-03 10:30:46.923 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:30:46.923 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x0), score=190
+2026-11-03 10:30:46.923 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:30:47.256 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 10:30:47.312 [JavaFX Application Thread] INFO  GameWorld - Laser mode ON for 10.0 seconds
+2026-11-03 10:30:47.312 [JavaFX Application Thread] INFO  GameWorld - Laser mode ON for 10.0 seconds
+2026-11-03 10:30:47.326 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x0), score=200
+2026-11-03 10:30:47.326 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:30:47.329 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x0), score=210
+2026-11-03 10:30:47.329 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:30:47.504 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x1), score=220
+2026-11-03 10:30:47.504 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:30:47.659 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 10:30:47.736 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by laser, hp left=1
+2026-11-03 10:30:47.736 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by laser, hp left=1
+2026-11-03 10:30:47.979 [JavaFX Application Thread] INFO  GameWorld - Laser mode ON for 10.0 seconds
+2026-11-03 10:30:48.128 [JavaFX Application Thread] INFO  GameWorld - Laser mode ON for 10.0 seconds
+2026-11-03 10:30:48.326 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 10:30:48.395 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x1), score=230
+2026-11-03 10:30:48.395 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:30:48.400 [JavaFX Application Thread] DEBUG GameWorld - Brick hit by laser, hp left=1
+2026-11-03 10:30:48.766 [JavaFX Application Thread] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 10:30:48.825 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x1), score=240
+2026-11-03 10:30:48.826 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:30:48.826 [JavaFX Application Thread] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x1), score=250
+2026-11-03 10:30:48.826 [JavaFX Application Thread] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:30:49.256 [JavaFX Application Thread] WARN  GameWorld - Life lost, lives left=2
+2026-11-03 10:37:39.348 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:37:39.356 [main] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=0)
+2026-11-03 10:37:39.357 [main] INFO  GameWorld - Ball pierced a brick (7 pierces left)
+2026-11-03 10:37:39.358 [main] INFO  GameWorld - Brick destroyed by ball: +20 points (combo x1), score=20
+2026-11-03 10:37:39.361 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:37:39.362 [main] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=1)
+2026-11-03 10:37:39.364 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:37:39.364 [main] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=1)
+2026-11-03 10:37:39.364 [main] INFO  GameWorld - Main ball lost, extra ball takes over (0 left)
+2026-11-03 10:37:39.365 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:37:39.365 [main] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=1)
+2026-11-03 10:37:39.372 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:37:39.373 [main] INFO  GameWorld - Stage 1 cleared, score=0
+2026-11-03 10:37:39.378 [main] DEBUG GameWorld - Upgrade choices offered: [Score Boost, Piercing Ball, Wide Paddle]
+2026-11-03 10:37:39.378 [main] INFO  GameWorld - Upgrade chosen: Score Boost
+2026-11-03 10:37:39.378 [main] INFO  GameWorld - Starting stage 2
+2026-11-03 10:37:39.378 [main] INFO  GameWorld - Stage 2 cleared, score=0
+2026-11-03 10:37:39.379 [main] DEBUG GameWorld - Upgrade choices offered: [Piercing Ball, Extra Life, Score Boost]
+2026-11-03 10:37:39.379 [main] INFO  GameWorld - Upgrade chosen: Piercing Ball
+2026-11-03 10:37:39.379 [main] INFO  GameWorld - Starting stage 3
+2026-11-03 10:37:39.379 [main] INFO  GameWorld - Stage 3 cleared, score=0
+2026-11-03 10:37:39.379 [main] DEBUG GameWorld - Upgrade choices offered: [Extra Ball, Slow Ball, Extra Life]
+2026-11-03 10:37:39.379 [main] INFO  GameWorld - Upgrade chosen: Extra Ball
+2026-11-03 10:37:39.379 [main] INFO  GameWorld - Starting stage 4 (BOSS)
+2026-11-03 10:37:39.380 [main] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=1)
+2026-11-03 10:37:39.381 [main] WARN  GameWorld - Paddle hit by boss shot, lives left=2
+2026-11-03 10:37:39.386 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:37:39.386 [main] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=0)
+2026-11-03 10:37:39.387 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:37:39.387 [main] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=0)
+2026-11-03 10:37:39.402 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:37:39.402 [main] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=0)
+2026-11-03 10:37:39.402 [main] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x1), score=10
+2026-11-03 10:37:39.403 [main] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:37:39.404 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:37:39.405 [main] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=0)
+2026-11-03 10:37:39.405 [main] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x1), score=10
+2026-11-03 10:37:39.405 [main] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:37:39.405 [main] WARN  GameWorld - Life lost, lives left=2
+2026-11-03 10:37:39.408 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:37:39.408 [main] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=0)
+2026-11-03 10:37:39.409 [main] INFO  GameWorld - Stage 1 cleared, score=0
+2026-11-03 10:37:39.409 [main] DEBUG GameWorld - Upgrade choices offered: [Extra Ball, Extra Life, Fast Paddle]
+2026-11-03 10:37:39.411 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:37:39.411 [main] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=0)
+2026-11-03 10:37:39.411 [main] INFO  GameWorld - Stage 1 cleared, score=0
+2026-11-03 10:37:39.412 [main] DEBUG GameWorld - Upgrade choices offered: [Extra Life, Wide Paddle, Score Boost]
+2026-11-03 10:37:39.412 [main] INFO  GameWorld - Upgrade chosen: Extra Life
+2026-11-03 10:37:39.412 [main] INFO  GameWorld - Starting stage 2
+2026-11-03 10:37:39.413 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:37:39.413 [main] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=0)
+2026-11-03 10:37:39.413 [main] WARN  GameWorld - Life lost, lives left=2
+2026-11-03 10:37:39.413 [main] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=0)
+2026-11-03 10:37:39.414 [main] WARN  GameWorld - Life lost, lives left=1
+2026-11-03 10:37:39.414 [main] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=0)
+2026-11-03 10:37:39.414 [main] WARN  GameWorld - Life lost, lives left=0
+2026-11-03 10:37:39.414 [main] WARN  GameWorld - GAME OVER with score=0
+2026-11-03 10:37:39.416 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:37:39.416 [main] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=0)
+2026-11-03 10:37:39.416 [main] WARN  GameWorld - Life lost, lives left=2
+2026-11-03 10:37:39.417 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:37:39.418 [main] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=0)
+2026-11-03 10:37:39.418 [main] INFO  GameWorld - Stage 1 cleared, score=0
+2026-11-03 10:37:39.418 [main] DEBUG GameWorld - Upgrade choices offered: [Piercing Ball, Slow Ball, Fast Paddle]
+2026-11-03 10:37:39.420 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:37:39.420 [main] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=0)
+2026-11-03 10:37:39.420 [main] INFO  GameWorld - Brick destroyed by ball: +10 points (combo x1), score=10
+2026-11-03 10:37:39.420 [main] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:37:39.421 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:37:39.422 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:37:39.424 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:37:39.425 [main] INFO  GameWorld - Laser mode ON for 10.0 seconds
+2026-11-03 10:37:39.425 [main] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 10:37:39.425 [main] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 10:37:39.426 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:37:39.427 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:37:39.427 [main] INFO  GameWorld - Laser mode ON for 0.05 seconds
+2026-11-03 10:37:39.478 [laser-timer] INFO  GameWorld - Laser mode OFF
+2026-11-03 10:37:39.730 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:37:39.730 [main] INFO  GameWorld - Laser mode ON for 10.0 seconds
+2026-11-03 10:37:39.730 [main] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 10:37:39.731 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:37:39.731 [main] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x0), score=10
+2026-11-03 10:37:39.732 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:37:39.732 [main] INFO  GameWorld - Laser mode ON for 10.0 seconds
+2026-11-03 10:37:39.733 [main] INFO  GameWorld - New game started: stage=3, lives=3
+2026-11-03 10:37:39.775 [main] INFO  Progress - Unlocked stage 3
+2026-11-03 10:37:39.782 [main] INFO  Progress - Unlocked stage 3
+2026-11-03 10:37:39.782 [main] INFO  Progress - Progress loaded: unlocked stage 3
+2026-11-03 10:37:39.785 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:37:39.786 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:37:39.787 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:37:39.788 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:37:39.789 [main] INFO  GameWorld - Player launched the ball (speed=380.0, extra balls=0)
+2026-11-03 10:37:39.789 [main] INFO  GameWorld - Brick destroyed by ball: +15 points (combo x1), score=15
+2026-11-03 10:37:39.789 [main] DEBUG GameWorld - Power-up dropped
+2026-11-03 10:37:51.196 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:37:51.200 [main] INFO  GameWorld - Laser mode ON for 10.0 seconds
+2026-11-03 10:37:51.201 [main] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 10:37:51.203 [main] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 10:37:51.214 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:37:51.217 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:37:51.217 [main] INFO  GameWorld - Laser mode ON for 0.05 seconds
+2026-11-03 10:37:51.268 [laser-timer] INFO  GameWorld - Laser mode OFF
+2026-11-03 10:37:51.526 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:37:51.526 [main] INFO  GameWorld - Laser mode ON for 10.0 seconds
+2026-11-03 10:37:51.527 [main] DEBUG GameWorld - Player fired dual lasers
+2026-11-03 10:37:51.530 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:37:51.531 [main] INFO  GameWorld - Brick destroyed by laser: +10 points (combo x0), score=10
+2026-11-03 10:37:51.534 [main] INFO  GameWorld - New game started: stage=1, lives=3
+2026-11-03 10:37:51.534 [main] INFO  GameWorld - Laser mode ON for 10.0 seconds
